@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "check": "prettier --check .",
+    "format": "prettier --write .",
+    "eslint": "eslint . --ext js --ext jsx --ext ts --ext tsx"
   },
   "dependencies": {
     "axios": "^1.2.1",
@@ -17,5 +20,12 @@
     "react-bootstrap": "^2.7.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.31.11",
+    "prettier": "^2.8.1"
   }
 }
