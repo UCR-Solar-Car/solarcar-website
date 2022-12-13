@@ -1,7 +1,12 @@
 import React from "react";
+import Links from "../components/Links";
 
 const links = () => {
-  return <div>links</div>;
+  return (
+    <div>
+      <Links />
+    </div>
+  );
 };
 
 export default links;
