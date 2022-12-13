@@ -19,6 +19,8 @@ module.exports = {
       },
       fontFamily: {
         josefin: ["Josefin Sans", "sans-serif"],
+        zendots: ["Zen Dots", "curvsive"],
+        raleway: ["Raleway", "sans-serif"],
       },
     },
   },
