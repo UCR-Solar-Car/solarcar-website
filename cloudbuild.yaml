@@ -1,0 +1,22 @@
+steps:
+  - id: install
+    name: "node:14-alpine"
+    entrypoint: npm
+    args: ["ci"]
+  - id: tsc
+    name: "node:14-alpine"
+    entrypoint: npm
+    args: ["run", "tsc"]
+    waitFor: ["install"]
+  - id: lint
+    name: "node:14-alpine"
+    entrypoint: npm
+    args: ["run", "lint"]
+    waitFor: ["install"]
+  - id: test
+    name: "node:14-alpine"
+    entrypoint: npm
+    args: ["test"]
+    waitFor: ["install"]
+options:
+  machineType: "E2_HIGHCPU_8"
