@@ -1,22 +1,7 @@
 steps:
-  - id: install
-    name: "node:16-alpine"
+  - name: node:16.17.1
     entrypoint: npm
-    args: ["ci"]
-  - id: tsc
-    name: "node:16-alpine"
+    args: ["install"]
+  - name: node:16.17.1
     entrypoint: npm
-    args: ["run", "tsc"]
-    waitFor: ["install"]
-  - id: lint
-    name: "node:16-alpine"
-    entrypoint: npm
-    args: ["run", "lint"]
-    waitFor: ["install"]
-  - id: test
-    name: "node:16-alpine"
-    entrypoint: npm
-    args: ["test"]
-    waitFor: ["install"]
-options:
-  machineType: "E2_HIGHCPU_8"
+    args: ["run", "build"]
