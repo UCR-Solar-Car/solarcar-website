@@ -1,4 +1,5 @@
 import React from "react";
+import AdoptGrid from "../components/AdoptGrid";
 import AdoptInput from "../components/AdoptInput";
 import AdoptText from "../components/AdoptText";
 import Header from "../components/Header";
@@ -12,6 +13,7 @@ const adopt = () => {
       />
       <AdoptText />
       <AdoptInput />
+      <AdoptGrid />
     </div>
   );
 };
