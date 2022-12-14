@@ -7,6 +7,7 @@ const user = {
   email: "",
   phone: "",
   paypal: "",
+  donate: false,
 };
 
 const AdoptInput = () => {
@@ -108,6 +109,33 @@ const AdoptInput = () => {
             value={data.paypal}
             placeholder="ex. @scotty_highlander"
           />
+        </Col>
+        <Col
+          xl={2}
+          className="text-left m-0 p-0 flex justify-center items-center my-4"
+        >
+          <input
+            name="donate"
+            type="checkbox"
+            className="bg-red-500"
+            onChange={() => {
+              setData({ ...data, donate: !data.donate });
+            }}
+          />
+          <label
+            htmlFor="donate"
+            className="text-solar-gold font-josefin font-bold text-xl mx-2 p-0 my-0"
+          >
+            I have donated!
+          </label>
+        </Col>
+        <Col
+          xl={2}
+          className="text-left m-0 p-0 flex justify-end items-center my-4"
+        >
+          <button className="bg-solar-gold text-solar-black font-josefin px-4 py-2 text-xl text-center">
+            Adopt a Cell
+          </button>
         </Col>
       </Row>
     </div>
