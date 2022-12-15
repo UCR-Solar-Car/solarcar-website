@@ -5,9 +5,11 @@ import Navigation from "./Navigation";
 const Layout = ({ children }) => {
   return (
     <>
-      <Navigation />
-      <main>{children}</main>
-      <Footer />
+      <div className="min-h-screen bg-fixed w-full bg-gradient-radial  from-solar-gray to-solar-black">
+        <Navigation />
+        <main>{children}</main>
+        <Footer />
+      </div>
     </>
   );
 };
