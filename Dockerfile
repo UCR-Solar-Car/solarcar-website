@@ -23,7 +23,7 @@ COPY package*.json ./
 
 # Install dependencies.
 RUN npm ci
-RUN npm build
+RUN npm run build
 
 # Copy local code to the container image.
 COPY . ./
