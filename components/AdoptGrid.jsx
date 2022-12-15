@@ -20,7 +20,7 @@ const AdoptGrid = () => {
           </span>
         </div>
         <Row className="my-4">
-          {cells.map((cell, index) => (
+          {cells.map((_, index) => (
             <Col
               xl={1}
               key={index}
