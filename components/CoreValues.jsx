@@ -4,8 +4,8 @@ import Row from "react-bootstrap/Row";
 
 const CoreValues = () => {
   return (
-    <div className="corevalues bg-[#000000]">
-      <text className="corevalues-title text-center text-white font-lexend text-xl">
+    <div className="corevalues bg-[#000000] font-ubuntu">
+      <text className="corevalues-title text-center text-white text-xl">
         {">>> CoreValues"}
       </text>
       <Row className="text-white mx-auto h-full flex justify-between item-center w-[95%]">
