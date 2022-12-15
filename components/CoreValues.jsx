@@ -131,9 +131,4 @@ const CoreValues = () => {
   );
 };
 
-// background: #FFFFFF;
-// background: #9FE1FF;
-// background: #FEC155;
-// background: #000000;
-
 export default CoreValues;
