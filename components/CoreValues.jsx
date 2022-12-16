@@ -67,7 +67,6 @@ const CoreValues = () => {
         </Col>
 
         {/* medium screens */}
-
         <Col
           sm={6}
           lg={3}
