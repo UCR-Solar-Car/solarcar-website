@@ -27,11 +27,11 @@ const Navigation = () => {
       <Link href="/" className="w-1/6">
         <img alt="logo" src="logo.png"></img>
       </Link>
-      <div className="w-1/2 flex justify-between items-center mr-5">
+      <div className="w-1/2 flex justify-end md:justify-between items-center mr-5 ">
         <motion.a
           whileHover={{ scale: 1.2 }}
           transition={{ type: "spring", stiffness: 500 }}
-          className="m-3 no-underline font-zendots text-xl text-[#ffffff] hover:text-solar-lightblue"
+          className="hidden md:block m-3 no-underline font-zendots text-sm md:text-xl text-[#ffffff] hover:text-solar-lightblue"
           href="/about"
         >
           About
@@ -39,7 +39,7 @@ const Navigation = () => {
         <motion.a
           whileHover={{ scale: 1.2 }}
           transition={{ type: "spring", stiffness: 500 }}
-          className="m-3 no-underline font-zendots text-xl text-[#ffffff] hover:text-solar-lightblue"
+          className="hidden md:block m-3 no-underline font-zendots text-sm md:text-xl text-[#ffffff] hover:text-solar-lightblue"
           href="/team"
         >
           Team
@@ -47,13 +47,13 @@ const Navigation = () => {
         <motion.a
           whileHover={{ scale: 1.2 }}
           transition={{ type: "spring", stiffness: 500 }}
-          className="m-3 no-underline font-zendots text-xl text-[#ffffff] hover:text-solar-lightblue"
+          className="hidden md:block m-3 no-underline font-zendots text-sm md:text-xl text-[#ffffff] hover:text-solar-lightblue"
           href="/sponsors"
         >
           Sponsors
         </motion.a>
         <motion.a
-          className="py-2 px-4 rounded-full m-3 no-underline font-zendots text-xl text-solar-gray hover:text-solar-gray bg-solar-gold"
+          className="hidden md:block py-2 px-4 rounded-full m-3 no-underline font-zendots text-sm md:text-xl text-solar-gray hover:text-solar-gray bg-solar-gold"
           href="/adopt"
           whileHover={{ scale: 1.2 }}
           transition={{ type: "spring", stiffness: 500 }}
@@ -66,7 +66,7 @@ const Navigation = () => {
           }}
           variants={sidebar}
           animate={open ? "open" : "closed"}
-          className="fixed h-screen w-full md:w-1/3 bg-solar-yellow top-0 right-0 flex justify-start items-center"
+          className="fixed h-screen w-full md:w-1/3 bg-solar-yellow top-0 right-0 flex justify-start items-center z-50"
         >
           <CgChevronDoubleLeft
             className="text-solar-gray text-5xl hover:cursor-pointer hover:text-solar-blue fixed top-2 right-2"
