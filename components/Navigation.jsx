@@ -66,7 +66,7 @@ const Navigation = () => {
           }}
           variants={sidebar}
           animate={open ? "open" : "closed"}
-          className="fixed h-screen w-full md:w-1/3 bg-solar-yellow top-0 right-0 flex justify-start items-center"
+          className="fixed h-screen w-full md:w-1/3 bg-solar-yellow top-0 right-0 flex justify-start items-center z-50"
         >
           <CgChevronDoubleLeft
             className="text-solar-gray text-5xl hover:cursor-pointer hover:text-solar-blue fixed top-2 right-2"
