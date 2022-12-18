@@ -55,7 +55,6 @@ const Teams = () => {
       <Row>
         {teams.map((team, index) => (
           <Col key={index}>
-            {console.log("TEAMS", team)}
             <Team team={team} />
           </Col>
         ))}
