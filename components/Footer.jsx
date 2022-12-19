@@ -7,21 +7,30 @@ import { FaEnvelope } from "react-icons/fa";
 
 function footer() {
   return (
-    <div className="flex w-full h-auto bg-solar-black justify-center border-t-8 border-solar-gold">
-      <div className="flex text-solar-white space-x-12 m-2 text-5x1">
-        <a href="https://www.facebook.com/UCRSolarCar/">
+    <div className="flex w-full h-auto bg-solar-black justify-center border-t-8 border-solar-gold py-8">
+      <div className="flex justify-evenly items-center w-1/2 text-5xl">
+        <a
+          href="https://www.facebook.com/UCRSolarCar/"
+          className="text-solar-white hover:text-solar-gold"
+        >
           <FaFacebookSquare />
         </a>
-        <a href="">
+        <a href="" className="text-solar-white hover:text-solar-gold">
           <FaDiscord />
         </a>
-        <a href="https://www.instagram.com/ucrsolarcar/?hl=en">
+        <a
+          href="https://www.instagram.com/ucrsolarcar/?hl=en"
+          className="text-solar-white hover:text-solar-gold"
+        >
           <FaInstagram />
         </a>
-        <a href="https://www.linkedin.com/company/ucr-solar-car">
+        <a
+          href="https://www.linkedin.com/company/ucr-solar-car"
+          className="text-solar-white hover:text-solar-gold"
+        >
           <FaLinkedin />
         </a>
-        <a href="">
+        <a href="" className="text-solar-white hover:text-solar-gold">
           <FaEnvelope />
         </a>
       </div>
