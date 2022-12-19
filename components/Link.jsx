@@ -1,40 +1,18 @@
 import React from "react";
 
-// const Link = () => {
-//   return <div>Link</div>;
-// };
-
-// export default Link;
-// overflow: hidden;
-
 const Link = () => {
   return (
-    <div className="bg-[#FEC155] h-331 w-358 relative block">
-      <div
-        className="text-center mt-100 p-6"
-        style={{
-          fontFamily: "Raleway",
-          fontSize: "37px",
-          fontWeight: "400",
-          color: "#1F1E21",
-          lineHeight: "38px",
-          width: "100%", // Add this line
-          letterSpacing: "0.00001px",
-        }}
-      >
+    <div className="bg-solar-gold">
+      <div className="text-center mt-100 p-6 font-raleway text-3xl text-solar-black">
         Project Manager
       </div>
       <div
-        // className="text-center absolute bottom-0 left-0 right-0 mb-33"
         style={{
           backgroundColor: "#2A363D",
           marginLeft: "auto",
           marginRight: "auto",
           width: "160px",
           height: "60px",
-          // letterSpacing: "2100px"
-          // padding: "25px"
-          // padding: "7px"
         }}
       >
         <a
