@@ -1,28 +1,28 @@
 import React from "react";
-import { FaFacebookSquare as FaceBookIcon } from "react-icons/fa";
-import { FaDiscord as DiscordIcon } from "react-icons/fa";
-import { FaInstagram as InstagramIcon } from "react-icons/fa";
-import { FaLinkedin as LinkedinIcon } from "react-icons/fa";
-import { FaEnvelope as EmailIcon } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 
 function footer() {
   return (
-    <div className="flex w-[100%] h-auto bg-[#1F1E21] justify-center border-t-8 border-[#FEC155]">
-      <div className="flex text-white space-x-12 m-2 text-[50px]">
+    <div className="flex w-full h-auto bg-solar-black justify-center border-t-8 border-solar-gold">
+      <div className="flex text-solar-white space-x-12 m-2 text-5x1">
         <a href="https://www.facebook.com/UCRSolarCar/">
-          <FaceBookIcon />
+          <FaFacebookSquare />
         </a>
         <a href="">
-          <DiscordIcon />
+          <FaDiscord />
         </a>
         <a href="https://www.instagram.com/ucrsolarcar/?hl=en">
-          <InstagramIcon />
+          <FaInstagram />
         </a>
         <a href="https://www.linkedin.com/company/ucr-solar-car">
-          <LinkedinIcon />
+          <FaLinkedin />
         </a>
         <a href="">
-          <EmailIcon />
+          <FaEnvelope />
         </a>
       </div>
     </div>
