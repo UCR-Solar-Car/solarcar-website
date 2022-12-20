@@ -23,7 +23,7 @@ const Navigation = () => {
   };
   const [open, setOpen] = useState(false);
   return (
-    <div className="w-full flex justify-between items-center flex-row">
+    <div className="bg-gradient-to-b z-50 from-black/60 fixed w-full flex justify-between items-center flex-row">
       <Link href="/" className="w-1/6">
         <img alt="logo" src="logo.png"></img>
       </Link>
