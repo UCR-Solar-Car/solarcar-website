@@ -1,8 +1,11 @@
 steps:
-  - name: node:16.17.0
+  - name: node:16.17.1
     entrypoint: npm
     args: ["install"]
-  - name: node:16.17.0
+  - name: node:16.17.1
+    entrypoint: npm
+    args: ["run", "build"]
+  - name: node:16.17.1
     entrypoint: npm
     args: ["run", "create-env"]
     env:
@@ -13,37 +16,5 @@ steps:
       - "NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=${_NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID}"
       - "NEXT_PUBLIC_FIREBASE_APP_ID=${_NEXT_PUBLIC_FIREBASE_APP_ID}"
       - "NEXT_PUBLIC_SENDGRID_API_KEY=${_NEXT_PUBLIC_SENDGRID_API_KEY}"
-
-  - name: gcr.io/cloud-builders/docker
-    args:
-      - build
-      - "--no-cache"
-      - "-t"
-      - "$_GCR_HOSTNAME/$PROJECT_ID/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA"
-      - .
-      - "-f"
-      - Dockerfile
-    id: Build
-  - name: gcr.io/cloud-builders/docker
-    args:
-      - push
-      - "$_GCR_HOSTNAME/$PROJECT_ID/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA"
-    id: Push
-  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk:slim"
-    args:
-      - run
-      - services
-      - update
-      - $_SERVICE_NAME
-      - "--platform=managed"
-      - "--image=$_GCR_HOSTNAME/$PROJECT_ID/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA"
-      - >-
-        --labels=managed-by=gcp-cloud-build-deploy-cloud-run,commit-sha=$COMMIT_SHA,gcb-build-id=$BUILD_ID,gcb-trigger-id=$_TRIGGER_ID,$_LABELS
-      - "--region=$_DEPLOY_REGION"
-      - "--quiet"
-    id: Deploy
-    entrypoint: gcloud
-images:
-  - "$_GCR_HOSTNAME/$PROJECT_ID/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA"
-options:
-  substitutionOption: ALLOW_LOOSE
+  - name: gcr.io/solarcar-website-371620/firebase
+    args: ["deploy", "--project=solarcar-website-371620", "--only=hosting"]
