@@ -1,7 +1,18 @@
 import React from "react";
 
-const lead = () => {
-  return <div>lead</div>;
+const Lead = ({ position, name, photo }) => {
+  return (
+    <div>
+      <img src={photo} alt=" " />
+
+      <p className=" text-solar-gold text-center font-josefin text-xl p-0 m-0">
+        {position}
+      </p>
+      <p className="text-solar-white text-center font-raleway text-xl p-0 m-0">
+        {name}
+      </p>
+    </div>
+  );
 };
 
-export default lead;
+export default Lead;
