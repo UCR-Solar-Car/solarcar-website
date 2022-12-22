@@ -17,6 +17,10 @@ const AdoptInput = () => {
     setData({ ...data, [e.target.name]: e.target.value });
   };
 
+  const handleSubmit = () => {
+    console.log("Submit Pressed");
+  };
+
   return (
     <div className="bg-solar-black text-white">
       <Row className="flex justify-center items-center py-4">
@@ -133,7 +137,10 @@ const AdoptInput = () => {
           xl={2}
           className="text-left m-0 p-0 flex justify-end items-center my-4"
         >
-          <button className="bg-solar-gold text-solar-black font-josefin px-4 py-2 text-xl text-center">
+          <button
+            onClick={handleSubmit}
+            className="bg-solar-gold text-solar-black font-josefin px-4 py-2 text-xl text-center"
+          >
             Adopt a Cell
           </button>
         </Col>
