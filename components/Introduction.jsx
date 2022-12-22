@@ -4,6 +4,14 @@ import Link from "next/link";
 const Introduction = () => {
   return (
     <div className="box-content w-12/12  p-5 m-4 flex self-auto flex-col justify-center items-center ">
+      <h1 className="font-josefin text-center text-6xl my-5">
+        <span className="text-solar-gold">Founded by co-founders </span>
+        <span className="text-solar-white">Kyle Semelka </span>
+        <span className="text-solar-gold">and </span>
+        <span className="text-solar-white">Paven Bhogal </span>
+        <span className="text-solar-gold">in 2017</span>
+      </h1>
+      <img className="w-full h-[75vh] object-cover" src={"GroupPhoto.png"} />
       <h1 className="text-solar-gold font-josefin text-center text-6xl my-5">
         {">>About Us"}
       </h1>
