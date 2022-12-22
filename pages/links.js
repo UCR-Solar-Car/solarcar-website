@@ -5,10 +5,7 @@ import Links from "../components/Links";
 const links = () => {
   return (
     <div>
-      <Header
-        image="https://ieee.ucr.edu/sites/default/files/styles/scale_367/public/2lt0u4l.jpg?itok=8IIhrRvt"
-        title="Links"
-      />
+      <Header image="Application.jpg" title="Links" />
       <Links />
     </div>
   );
