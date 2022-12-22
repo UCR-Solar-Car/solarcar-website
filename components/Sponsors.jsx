@@ -23,7 +23,7 @@ const friend = new Array(5).fill(
 
 const Sponsors = () => {
   return (
-    <div className="w-full flex justify-center items-center flex-col">
+    <div className="w-full flex justify-center items-center flex-col bg-solar-white">
       <span className="bg-solar-gold w-full font-josefin text-5xl p-4 text-center">
         Platinum
       </span>
