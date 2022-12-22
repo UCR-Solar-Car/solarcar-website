@@ -11,6 +11,9 @@ steps:
     id: Build
   - name: node:16.17.0
     entrypoint: npm
+    args: ["install"]
+  - name: node:16.17.0
+    entrypoint: npm
     args: ["run", "create-env"]
     env:
       - "NEXT_PUBLIC_FIREBASE_API_KEY=${_NEXT_PUBLIC_FIREBASE_API_KEY}"
