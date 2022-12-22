@@ -23,8 +23,8 @@ const AdoptInput = () => {
 
   return (
     <div className="bg-solar-black text-white">
-      <Row className="flex justify-center items-center py-4">
-        <Col xl={6} className="text-right m-0 p-0">
+      <Row className="flex justify-center items-center py-4 ">
+        <Col xs={6} className="text-right m-0 p-0">
           <label
             className="text-solar-gold font-josefin font-bold text-xl text-right"
             htmlFor="cell"
@@ -32,7 +32,7 @@ const AdoptInput = () => {
             Cell Number:
           </label>
         </Col>
-        <Col xl={6} className="text-left m-0 p-0">
+        <Col xs={6} className="text-left m-0 p-0">
           <input
             className="text-solar-blue font-raleway py-1 px-2 mx-4 my-2 focus:outline-none placeholder:text-solar-blue"
             name="cell"
@@ -42,7 +42,7 @@ const AdoptInput = () => {
             placeholder="ex. 111"
           />
         </Col>
-        <Col xl={6} className="text-right m-0 p-0">
+        <Col xs={6} className="text-right m-0 p-0">
           <label
             className="text-solar-gold font-josefin font-bold text-xl text-right"
             htmlFor="cell"
@@ -50,7 +50,7 @@ const AdoptInput = () => {
             Name to Display:
           </label>
         </Col>
-        <Col xl={6} className="text-left m-0 p-0">
+        <Col xs={6} className="text-left m-0 p-0">
           <input
             className="text-solar-blue font-raleway py-1 px-2 mx-4 my-2 focus:outline-none placeholder:text-solar-blue"
             name="name"
@@ -60,7 +60,7 @@ const AdoptInput = () => {
             placeholder="ex. Scotty Highlander"
           />
         </Col>
-        <Col xl={6} className="text-right m-0 p-0">
+        <Col xs={6} className="text-right m-0 p-0">
           <label
             className="text-solar-gold font-josefin font-bold text-xl text-right"
             htmlFor="cell"
@@ -68,7 +68,7 @@ const AdoptInput = () => {
             Email:
           </label>
         </Col>
-        <Col xl={6} className="text-left m-0 p-0">
+        <Col xs={6} className="text-left m-0 p-0">
           <input
             className="text-solar-blue font-raleway py-1 px-2 mx-4 my-2 focus:outline-none placeholder:text-solar-blue"
             name="name"
@@ -78,7 +78,7 @@ const AdoptInput = () => {
             placeholder="ex. scotty@ucr.edu"
           />
         </Col>
-        <Col xl={6} className="text-right m-0 p-0">
+        <Col xs={6} className="text-right m-0 p-0">
           <label
             className="text-solar-gold font-josefin font-bold text-xl text-right"
             htmlFor="cell"
@@ -86,7 +86,7 @@ const AdoptInput = () => {
             Phone Number:
           </label>
         </Col>
-        <Col xl={6} className="text-left m-0 p-0">
+        <Col xs={6} className="text-left m-0 p-0">
           <input
             className="text-solar-blue font-raleway py-1 px-2 mx-4 my-2 focus:outline-none placeholder:text-solar-blue"
             name="name"
@@ -96,7 +96,7 @@ const AdoptInput = () => {
             placeholder="ex. 123-456-7890"
           />
         </Col>
-        <Col xl={6} className="text-right m-0 p-0">
+        <Col xs={6} className="text-right m-0 p-0">
           <label
             className="text-solar-gold font-josefin font-bold text-xl text-right"
             htmlFor="cell"
@@ -104,7 +104,7 @@ const AdoptInput = () => {
             PayPal Username:
           </label>
         </Col>
-        <Col xl={6} className="text-left m-0 p-0">
+        <Col xs={6} className="text-left m-0 p-0">
           <input
             className="text-solar-blue font-raleway py-1 px-2 mx-4 my-2 focus:outline-none placeholder:text-solar-blue"
             name="name"
@@ -116,6 +116,7 @@ const AdoptInput = () => {
         </Col>
         <Col
           xl={2}
+          xs={5}
           className="text-left m-0 p-0 flex justify-center items-center my-4"
         >
           <input
@@ -135,6 +136,7 @@ const AdoptInput = () => {
         </Col>
         <Col
           xl={2}
+          xs={5}
           className="text-left m-0 p-0 flex justify-end items-center my-4"
         >
           <button

@@ -23,6 +23,7 @@ const AdoptGrid = () => {
           {cells.map((_, index) => (
             <Col
               xl={1}
+              xs={2}
               key={index}
               className="text-white bg-solar-gray font-josefin border-2 flex justify-center items-center w-20 h-20 m-0 p-0 text-3xl"
             >
@@ -31,7 +32,7 @@ const AdoptGrid = () => {
           ))}
         </Row>
       </div>
-      <p className="text-solar-gold font-josefin text-4xl font-bold">
+      <p className="text-solar-gold font-josefin text-4xl font-bold text-center">
         A Huge Thank You to Our Current Adopters
       </p>
       {names.map((name, index) => (
