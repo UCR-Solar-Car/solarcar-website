@@ -4,7 +4,11 @@ const Header = ({ image, title }) => {
   return (
     <div className="relative">
       <div className="relative">
-        <img className="w-full h-[35vh]" src={image} alt="Header Image" />
+        <img
+          className="w-full h-[35vh] object-cover"
+          src={image}
+          alt="Header Image"
+        />
         <div className="bg-gradient-to-b from-white to-black p-2 absolute top-0 left-0 w-full h-full opacity-50"></div>
       </div>
 
