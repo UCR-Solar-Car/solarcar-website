@@ -54,8 +54,8 @@ const Teams = () => {
     <div>
       <Row>
         {teams.map((team, index) => (
-          <Col key={index}>
-            <Team team={team} />
+          <Col key={index} className="flex items-stretch m-0 p-0">
+            <Team team={team} index={index} />
           </Col>
         ))}
       </Row>
