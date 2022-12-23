@@ -7,7 +7,7 @@ import Header from "../components/Header";
 const about = () => {
   return (
     <div>
-      <Header image="SolarCar.jpg" title="About Us" />
+      <Header image="About.png" title="About Us" />
       <AboutTiles />
       <AboutParagraph />
       <Gallery />

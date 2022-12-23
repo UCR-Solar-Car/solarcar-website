@@ -7,7 +7,7 @@ import Header from "../components/Header";
 const adopt = () => {
   return (
     <div>
-      <Header image="SolarCells.jpg" title="Adopt a Cell" />
+      <Header image="Adopt.jpg" title="Adopt a Cell" />
       <AdoptText />
       <AdoptInput />
       <AdoptGrid />

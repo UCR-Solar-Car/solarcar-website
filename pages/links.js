@@ -5,7 +5,7 @@ import Links from "../components/Links";
 const links = () => {
   return (
     <div>
-      <Header image="Application.jpg" title="Links" />
+      <Header image="Recruitment.jpg" title="Links" />
       <Links />
     </div>
   );

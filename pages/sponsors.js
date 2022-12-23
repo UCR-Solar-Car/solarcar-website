@@ -6,7 +6,7 @@ import Sponsors from "../components/Sponsors";
 const sponsors = () => {
   return (
     <div>
-      <Header image="Sponsors.jpg" title="Sponsors" />
+      <Header image="Sponsors.jpeg" title="Sponsors" />
       <Sponsors />
       <SponsorOutreach />
     </div>
