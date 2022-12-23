@@ -8,7 +8,7 @@ const Lead = ({ position, name, photo }) => {
       <p className=" text-solar-gold text-center font-josefin text-xl p-0 m-0">
         {position}
       </p>
-      <p className="text-solar-white text-center font-raleway text-xl p-0 m-0">
+      <p className="text-solar-white text-center font-raleway text-l p-0 m-0">
         {name}
       </p>
     </div>
