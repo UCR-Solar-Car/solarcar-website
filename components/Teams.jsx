@@ -40,12 +40,17 @@ const teams = [
   ],
   [
     "SOFTWARE",
-    "SOFTWARE",
-    "SOFTWARE",
-    "SOFTWARE",
-    "SOFTWARE",
-    "SOFTWARE",
-    "SOFTWARE",
+    "Aryan Kanuparti",
+    "Colin Thekkinedath",
+    "Jason Lin",
+    "Mariam Golwalla",
+    "Isean Bhanot",
+    "Avnish Kovi",
+    "Valerie Wong",
+    "Aarav Sane",
+    "David Chong",
+    "Divyank Shah",
+    "Sachin Chopra",
   ],
   [
     "TELEMETRY",
@@ -57,15 +62,7 @@ const teams = [
     "Nathan Ha",
     "Brandon Sun",
   ],
-  [
-    "BUSINESS",
-    "BUSINESS",
-    "BUSINESS",
-    "BUSINESS",
-    "BUSINESS",
-    "BUSINESS",
-    "BUSINESS",
-  ],
+  ["BUSINESS", "Jose Delgado", "Sekirou Shimono"],
 ];
 
 const Teams = () => {
