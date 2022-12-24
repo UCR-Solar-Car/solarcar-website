@@ -7,8 +7,8 @@ import { FaEnvelope } from "react-icons/fa";
 
 function footer() {
   return (
-    <div className="flex w-full h-auto bg-solar-black justify-center border-t-8 border-solar-gold py-8">
-      <div className="flex justify-evenly items-center w-1/2 text-5xl">
+    <div className="flex w-full bg-solar-black justify-center py-8">
+      <div className="flex justify-evenly items-center w-3/4 sm:w-1/2 text-5xl">
         <a
           href="https://www.facebook.com/UCRSolarCar/"
           className="text-solar-white hover:text-solar-gold"
