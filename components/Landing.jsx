@@ -1,10 +1,11 @@
 import React from "react";
+import RotatingModel from "./RotatingModel";
 
 const Landing = () => {
   return (
     <div className="w-full flex justify-center items-center overflow-clip">
-      <div className="md:translate-x-[100px] lg:translate-x-[180px] w-full md:flex md:flex-row justify-center items-center mt-32">
-        <div className="md:w-1/3 lg:w-1/4 flex flex-col justify-start items-center md:items-start ">
+      <div className="md:translate-x-32 w-full md:flex md:flex-row justify-center items-center mt-32">
+        <div className="md:w-1/3 flex flex-col justify-start items-center md:items-start ">
           <p className="font-josefin text-solar-gold text-5xl md:text-4xl lg:text-5xl m-0">
             UC Riverside
           </p>
@@ -32,11 +33,9 @@ const Landing = () => {
             </p>
           </div>
         </div>
-        <img
-          alt="side render"
-          src="SideRender.png"
-          className="translate-y-[-70px] md:translate-y-[0px] md:w-3/4 m-0"
-        />
+        <div className="w-2/3 m-0">
+          <RotatingModel />
+        </div>
       </div>
     </div>
   );
