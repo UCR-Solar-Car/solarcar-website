@@ -16,6 +16,10 @@ const AboutParagraph = () => {
         </span>
       </p>
       <div className="bg-solar-gold w-[100%] h-10"></div>
+      <div className="flex">
+        <img className="w-1/2" src="BackLeftTransparent 1.png" alt=" "></img>
+        <img className="w-1/2" src="BackLeftRender 1.png" alt=" "></img>
+      </div>
     </div>
   );
 };
