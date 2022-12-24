@@ -14,19 +14,19 @@
     "create-env": "printenv > .env"
   },
   "dependencies": {
-    "@react-three/drei": "^9.48.1",
-    "@react-three/fiber": "^8.9.1",
+    "@react-three/drei": "9.48.1",
+    "@react-three/fiber": "8.9.1",
     "axios": "^1.2.1",
     "bootstrap": "^5.2.3",
     "firebase": "^9.15.0",
     "framer-motion": "^7.9.1",
-    "framer-motion-3d": "^8.0.2",
+    "framer-motion-3d": "8.0.2",
     "next": "13.0.6",
     "react": "18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
-    "three": "^0.148.0"
+    "three": "0.148.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
