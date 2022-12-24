@@ -2,8 +2,8 @@ import React from "react";
 
 const AboutParagraph = () => {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <p className="text-center text-3xl font-raleway w-10/12">
+    <div className="flex flex-col items-center">
+      <p className="text-center text-3xl font-raleway w-10/12 my-40">
         <span className="text-solar-white">
           Today, the University of California Riverside Solar Car team consists
           of many talented, undergraduate students who aim to construct a
@@ -17,8 +17,16 @@ const AboutParagraph = () => {
       </p>
       <div className="bg-solar-gold w-[100%] h-10"></div>
       <div className="flex">
-        <img className="w-1/2" src="BackLeftTransparent 1.png" alt=" "></img>
-        <img className="w-1/2" src="BackLeftRender 1.png" alt=" "></img>
+        <img
+          className="w-1/2"
+          src="BackLeftTransparent 1.png"
+          alt="Back Left Transparent"
+        ></img>
+        <img
+          className="w-1/2"
+          src="BackLeftRender 1.png"
+          alt="Back Left Render"
+        ></img>
       </div>
     </div>
   );
