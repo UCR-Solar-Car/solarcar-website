@@ -1,17 +1,28 @@
 import React from "react";
 import RotatingModel from "./RotatingModel";
+import { motion } from "framer-motion";
 
 const Landing = () => {
   return (
     <div className="w-full flex justify-center items-center overflow-clip">
       <div className="md:translate-x-32 w-full md:flex md:flex-row justify-center items-center mt-32">
         <div className="md:w-1/3 flex flex-col justify-start items-center md:items-start ">
-          <p className="font-josefin text-solar-gold text-5xl md:text-4xl lg:text-5xl m-0">
+          <motion.p
+            initial={{ x: 0, y: -10, opacity: 0 }}
+            animate={{ x: 0, y: 0, opacity: 1 }}
+            transition={{ ease: "easeInOut" }}
+            className="font-josefin text-solar-gold text-5xl md:text-4xl lg:text-5xl m-0"
+          >
             UC Riverside
-          </p>
-          <p className="font-josefin text-white text-5xl md:text-4xl lg:text-5xl mb-2">
+          </motion.p>
+          <motion.p
+            initial={{ x: 0, y: -10, opacity: 0 }}
+            animate={{ x: 0, y: 0, opacity: 1 }}
+            transition={{ ease: "easeInOut", duration: 0.5 }}
+            className="font-josefin text-white text-5xl md:text-4xl lg:text-5xl mb-2"
+          >
             Solar Car
-          </p>
+          </motion.p>
           <p className="w-8/12 text-center md:hidden font-raleway text-white md:text-sm lg:text-base m-0">
             Since 2017, UC Riverside Solar Car has been developing, innovating,
             and improving Solar Cars that push what we have ever seen before!
