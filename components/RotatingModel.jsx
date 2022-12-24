@@ -5,7 +5,7 @@ import { OrbitControls } from "@react-three/drei";
 
 const RotatingModel = () => {
   return (
-    <div>
+    <div className="text-gray-600">
       the model will be relaced by the actual model of the car
       <Canvas
         shadows
