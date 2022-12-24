@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutParagraph = () => {
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex flex-col items-center justify-center">
       <p className="text-center text-3xl font-raleway w-10/12">
         <span className="text-solar-white">
           Today, the University of California Riverside Solar Car team consists
@@ -15,7 +15,7 @@ const AboutParagraph = () => {
           solar-powered vehicles to finish a 2,000 mile cross-country journey.
         </span>
       </p>
-      <div className="bg-solar-gold"></div>
+      <div className="bg-solar-gold w-[100%] h-10"></div>
     </div>
   );
 };
