@@ -11,7 +11,6 @@ const Links = () => {
       setScreenSize(
         window.innerWidth >= 992 ? "lg" : window.innerWidth >= 576 ? "sm" : "xs"
       );
-      console.log(screenSize);
     });
   }, []);
   return (
