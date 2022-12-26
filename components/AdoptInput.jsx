@@ -14,13 +14,10 @@ const AdoptInput = () => {
   const [data, setData] = useState(user);
 
   const handleTyping = (e) => {
-    //was the validation supposed to be here instead like while users are typing?//
     setData({ ...data, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = () => {
-    //currently set up validation for submission, can type anything in the boxes
-    // Input validation for cell number field
     if (
       Number.isInteger(Number(data.cell)) &&
       data.cell >= 1 &&
