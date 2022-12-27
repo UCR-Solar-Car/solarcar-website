@@ -5,7 +5,7 @@ import Subteams from "../components/Subteams";
 const recruitment = () => {
   return (
     <div>
-      <Header image="About.png" title="Recruitment" />
+      <Header image="About.PNG" title="Recruitment" />
       <Subteams />
     </div>
   );
