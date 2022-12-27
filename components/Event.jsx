@@ -33,9 +33,14 @@ const Event = ({ name, date, time, location, address, link }) => {
               className="bg-solar-gold hover:text-solar-gray no-underline text-solar-gray font-josefin px-4 py-2 text-xl text-center flex justify-center items-center"
               rel="noreferrer"
             >
-              <FaLink className="text-solar-gray mx-2" />
+              <FaLink className="text-solar-gray " />
               Details
             </a>
+          </Col>
+          <Col>
+            <p className="m-0 p-0 font-bold text-xl font-josefin text-solar-gray">
+              .
+            </p>
           </Col>
         </Row>
       </div>
