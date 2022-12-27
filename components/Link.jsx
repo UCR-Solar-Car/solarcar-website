@@ -1,41 +1,21 @@
 import React from "react";
 
-const Link = () => {
+const Link = ({ backgroundColor, link, title }) => {
   return (
-    <div className="bg-solar-gold h-331 w-358 ">
-      <div className="text-center mt-100 p-6 font-raleway text-3xl text-solar-black">
-        Project Manager
+    <div
+      className={`bg-${backgroundColor} aspect-square w-full flex flex-col justify-between items-center`}
+    >
+      <div className="text-center font-raleway text-2xl text-solar-black h-2/3 flex justify-center items-center mx-2">
+        {title}
       </div>
-      <div class="box-border w-232 h-105 bg-gray mt-100 pb-8 px-8 pt-6 p-9  justify-center items-center">
-        {/* <div
-        style={{
-          backgroundColor: "#2A363D",
-          marginLeft: "auto",
-          marginRight: "auto",
-          width: "160px",
-          height: "60px",
-        }}
-      > */}
-        <a
-          href="https://ieee.ucr.edu/projects/solar-car"
-          className="text-blue-500"
-        >
-          <button className="text-white bg-solar-gray hover:bg-blue-700 w-full h-full p-2.5">
-            <div applyText="leading-10 text-center font-josefin text-solar-yellow font-normal text-3xl">
-              {/* <div
-              style={{
-                fontFamily: "Josefin Sans",
-                fontSize: "28px",
-                lineHeight: "20px",
-                textAlign: "center",
-                color: "#FFD680",
-              }}
-            > */}
-              APPLY
-            </div>
-          </button>
-        </a>
-      </div>
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href={link}
+        className={`no-underline mb-3 text-center font-josefin text-${backgroundColor} hover:text-solar-gray text-lg bg-solar-gray hover:bg-transparent py-2 w-9/12 border-solar-gray border-2`}
+      >
+        APPLY
+      </a>
     </div>
   );
 };
