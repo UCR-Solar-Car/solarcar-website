@@ -6,50 +6,73 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { motion } from "framer-motion";
 
+const openInNewTab = (url) => {
+  window.open(url, "_blank", "noopener,noreferrer");
+};
+
 function footer() {
   return (
     <div className="flex w-full bg-solar-black justify-center py-8">
       <div className="flex justify-evenly items-center w-3/4 sm:w-1/2 text-5xl">
-        <motion.a
-          whileHover={{ scale: 1.2 }}
-          transition={{ type: "spring", stiffness: 500 }}
-          href="https://www.facebook.com/UCRSolarCar/"
-          className="text-solar-white hover:text-solar-gold"
+        <button
+          onClick={() => openInNewTab("https://www.facebook.com/UCRSolarCar/")}
         >
-          <FaFacebookSquare />
-        </motion.a>
-        <motion.a
-          whileHover={{ scale: 1.2 }}
-          transition={{ type: "spring", stiffness: 500 }}
-          href=""
-          className="text-solar-white hover:text-solar-gold"
+          <motion.a
+            whileHover={{ scale: 1.2 }}
+            transition={{ type: "spring", stiffness: 500 }}
+            className="text-solar-white hover:text-solar-gold"
+          >
+            <FaFacebookSquare />
+          </motion.a>
+        </button>
+
+        <button onClick={() => openInNewTab("https://discord.gg/eGskEcjNvb")}>
+          <motion.a
+            whileHover={{ scale: 1.2 }}
+            transition={{ type: "spring", stiffness: 500 }}
+            className="text-solar-white hover:text-solar-gold"
+          >
+            <FaDiscord />
+          </motion.a>
+        </button>
+
+        <button
+          onClick={() =>
+            openInNewTab("https://www.instagram.com/ucrsolarcar/?hl=en")
+          }
         >
-          <FaDiscord />
-        </motion.a>
-        <motion.a
-          whileHover={{ scale: 1.2 }}
-          transition={{ type: "spring", stiffness: 500 }}
-          href="https://www.instagram.com/ucrsolarcar/?hl=en"
-          className="text-solar-white hover:text-solar-gold"
+          <motion.a
+            whileHover={{ scale: 1.2 }}
+            transition={{ type: "spring", stiffness: 500 }}
+            className="text-solar-white hover:text-solar-gold"
+          >
+            <FaInstagram />
+          </motion.a>
+        </button>
+
+        <button
+          onClick={() =>
+            openInNewTab("https://www.linkedin.com/company/ucr-solar-car")
+          }
         >
-          <FaInstagram />
-        </motion.a>
-        <motion.a
-          whileHover={{ scale: 1.2 }}
-          transition={{ type: "spring", stiffness: 500 }}
-          href="https://www.linkedin.com/company/ucr-solar-car"
-          className="text-solar-white hover:text-solar-gold"
-        >
-          <FaLinkedin />
-        </motion.a>
-        <motion.a
-          whileHover={{ scale: 1.2 }}
-          transition={{ type: "spring", stiffness: 500 }}
-          href=""
-          className="text-solar-white hover:text-solar-gold"
-        >
-          <FaEnvelope />
-        </motion.a>
+          <motion.a
+            whileHover={{ scale: 1.2 }}
+            transition={{ type: "spring", stiffness: 500 }}
+            className="text-solar-white hover:text-solar-gold"
+          >
+            <FaLinkedin />
+          </motion.a>
+        </button>
+
+        <button onClick={() => openInNewTab("mailto:ucrsolarcar@gmail.com")}>
+          <motion.a
+            whileHover={{ scale: 1.2 }}
+            transition={{ type: "spring", stiffness: 500 }}
+            className="text-solar-white hover:text-solar-gold"
+          >
+            <FaEnvelope />
+          </motion.a>
+        </button>
       </div>
     </div>
   );
