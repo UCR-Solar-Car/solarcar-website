@@ -2,7 +2,10 @@ import React, { useEffect, useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import Link from "./Link";
 
-const links = new Array(10).fill("");
+const links = new Array(10).fill({
+  title: "Project Manager",
+  link: "https://github.com/UCR-Solar-Car",
+});
 
 const Links = () => {
   const [screenSize, setScreenSize] = useState("");
@@ -20,6 +23,8 @@ const Links = () => {
           <Col key={index} xs={6} sm={4} lg={3} className="p-2">
             {screenSize == "xs" ? (
               <Link
+                link={link.link}
+                title={link.title}
                 backgroundColor={
                   Math.floor((index + 1) / 2) % 2 == 0
                     ? "solar-blue "
@@ -28,10 +33,14 @@ const Links = () => {
               />
             ) : screenSize == "lg" && index % 8 < 4 ? (
               <Link
+                link={link.link}
+                title={link.title}
                 backgroundColor={index % 2 == 0 ? "solar-blue " : "solar-gold "}
               />
             ) : (
               <Link
+                link={link.link}
+                title={link.title}
                 backgroundColor={index % 2 != 0 ? "solar-blue " : "solar-gold "}
               />
             )}
