@@ -5,7 +5,7 @@ import Header from "../components/Header";
 const resources = () => {
   return (
     <div>
-      <Header image="Event.jpg" title="Resources" />
+      <Header image="Event.JPG" title="Resources" />
       <Events />
     </div>
   );

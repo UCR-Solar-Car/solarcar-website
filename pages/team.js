@@ -5,7 +5,7 @@ import Header from "../components/Header";
 const team = () => {
   return (
     <div>
-      <Header image="Team.jpg" title="The Team" />
+      <Header image="Team.JPG" title="The Team" />
       <Crew />
     </div>
   );
