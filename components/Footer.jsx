@@ -14,38 +14,52 @@ function footer() {
           whileHover={{ scale: 1.2 }}
           transition={{ type: "spring", stiffness: 500 }}
           href="https://www.facebook.com/UCRSolarCar/"
+          target="_blank"
+          noreferrer="noopener"
           className="text-solar-white hover:text-solar-gold"
         >
           <FaFacebookSquare />
         </motion.a>
+
         <motion.a
           whileHover={{ scale: 1.2 }}
           transition={{ type: "spring", stiffness: 500 }}
-          href=""
+          href="https://discord.gg/eGskEcjNvb"
+          target="_blank"
+          noreferrer="noopener"
           className="text-solar-white hover:text-solar-gold"
         >
           <FaDiscord />
         </motion.a>
+
         <motion.a
           whileHover={{ scale: 1.2 }}
           transition={{ type: "spring", stiffness: 500 }}
           href="https://www.instagram.com/ucrsolarcar/?hl=en"
+          target="_blank"
+          noreferrer="noopener"
           className="text-solar-white hover:text-solar-gold"
         >
           <FaInstagram />
         </motion.a>
+
         <motion.a
           whileHover={{ scale: 1.2 }}
           transition={{ type: "spring", stiffness: 500 }}
           href="https://www.linkedin.com/company/ucr-solar-car"
+          target="_blank"
+          noreferrer="noopener"
           className="text-solar-white hover:text-solar-gold"
         >
           <FaLinkedin />
         </motion.a>
+
         <motion.a
           whileHover={{ scale: 1.2 }}
           transition={{ type: "spring", stiffness: 500 }}
-          href=""
+          href="mailto:ucrsolarcar@gmail.com"
+          target="_blank"
+          noreferrer="noopener"
           className="text-solar-white hover:text-solar-gold"
         >
           <FaEnvelope />
