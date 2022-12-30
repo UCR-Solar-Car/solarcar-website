@@ -5,8 +5,6 @@ import Team from "./Team";
 const teams = [
   [
     "ELECTRICAL",
-    "Leen Eisa",
-    "Sunny Zeng",
     "Jose Cervantes",
     "Aaron Yang",
     "Patrick Webb",
@@ -26,9 +24,7 @@ const teams = [
   [
     "MECHANICAL",
     "Aaric Borst",
-    "Patrick Aventino",
     "Joel Liu",
-    "Esmeralda Merida",
     "Alex Rivera",
     "Shing Hung",
     "Mena Hanna",
@@ -49,7 +45,6 @@ const teams = [
     "Valerie Wong",
     "Aarav Sane",
     "David Chong",
-    "Divyank Shah",
     "Sachin Chopra",
   ],
   [
@@ -62,7 +57,6 @@ const teams = [
     "Nathan Ha",
     "Brandon Sun",
   ],
-  ["BUSINESS", "Jose Delgado", "Sekirou Shimono"],
 ];
 
 const Teams = () => {
