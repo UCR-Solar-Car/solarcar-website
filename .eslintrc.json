@@ -17,6 +17,7 @@
   "plugins": ["react"],
   "rules": {
     "require-jsdoc": "off",
-    "@next/next/no-img-element": "off"
+    "@next/next/no-img-element": "off",
+    "jsx-a11y/alt-text": "error"
   }
 }
