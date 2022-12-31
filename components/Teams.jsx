@@ -14,7 +14,6 @@ const teams = [
     "Roger Teng",
     "Kyle Ludwig",
     "Aaron Chau",
-    "Eric Shu",
     "Roger Teng",
     "Zerong Cai",
     "Hugo Jr Gonzalez Cantu",
