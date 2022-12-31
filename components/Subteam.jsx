@@ -25,7 +25,7 @@ const Subteam = ({ team, blurb, index }) => {
           {team}
         </p>
 
-        <p className="text-2xl font-josefin p-10 text-center ">{blurb}</p>
+        <p className="text-xl font-josefin p-10 text-center ">{blurb}</p>
 
         {/* <p className= "text-5xl font-josefin p-10 flex items-center text-center justify-center">{team}</p>
 
