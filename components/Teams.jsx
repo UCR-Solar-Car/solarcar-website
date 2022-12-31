@@ -22,6 +22,16 @@ const teams = [
     "Kevin Ramirez",
   ],
   [
+    "TELEMETRY",
+    "Vy Vo",
+    "Nicholas Kang",
+    "Michael Lo",
+    "Eric Shu",
+    "Ethan Peng",
+    "Nathan Ha",
+    "Brandon Sun",
+  ],
+  [
     "MECHANICAL",
     "Aaric Borst",
     "Joel Liu",
@@ -46,16 +56,7 @@ const teams = [
     "Aarav Sane",
     "David Chong",
     "Sachin Chopra",
-  ],
-  [
-    "TELEMETRY",
-    "Vy Vo",
-    "Nicholas Kang",
-    "Michael Lo",
-    "Eric Shu",
-    "Ethan Peng",
-    "Nathan Ha",
-    "Brandon Sun",
+    "Justin Yee",
   ],
 ];
 
