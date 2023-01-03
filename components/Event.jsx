@@ -30,7 +30,7 @@ const Event = ({ name, date, time, location, address, link }) => {
             <button
               href={link}
               target="_blank"
-              className="  bg-solar-gold hover:bg-solar-gray text-solar-gray hover:text-solar-gold hover:outline no-underline font-josefin  text-2xl text-center flex items-center  px-5 py-2 my-3 indent-4"
+              className="  bg-solar-gold hover:bg-solar-gray text-solar-gray hover:text-solar-gold hover:outline no-underline font-josefin  text-2xl text-center flex items-center  px-5 py-2 my-3 indent-2"
               rel="noreferrer"
             >
               <FaLink />
