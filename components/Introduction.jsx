@@ -12,7 +12,7 @@ const Introduction = () => {
           <span className="text-solar-white">Paven Bhogal </span>
           <span className="text-solar-gold">in 2017</span>
         </p>
-        <img className="w-full object-cover" src={"GroupPhoto.png"} />
+        <img className="w-full object-cover" src={"GroupPhoto.png"} alt="" />
         <p className="text-solar-gold font-josefin text-center text-6xl my-5">
           {">>About Us"}
         </p>

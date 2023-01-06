@@ -27,21 +27,21 @@ const Event = ({ name, date, time, location, address, link }) => {
             <p className="m-0 p-0 text-xl font-josefin">{address}</p>
           </Col>
           <Col xl={2} className="flex justify-center items-center">
-            <a
+            <button
               href={link}
               target="_blank"
-              className="bg-solar-gold hover:text-solar-gray no-underline text-solar-gray font-josefin px-4 py-2 text-xl text-center flex justify-center items-center"
+              className="  bg-solar-gold hover:bg-solar-gray text-solar-gray hover:text-solar-gold hover:outline no-underline font-josefin  text-2xl text-center flex items-center  px-5 py-2 my-3 indent-2"
               rel="noreferrer"
             >
-              <FaLink className="text-solar-gray " />
-              Details
-            </a>
+              <FaLink />
+              Detail
+            </button>
           </Col>
-          <Col>
-            <p className="m-0 p-0 font-bold text-xl font-josefin text-solar-gray">
+          {/* <Col>
+            {/* <p className="m-0 p-0 font-bold text-xl font-josefin text-solar-gray">
               .
-            </p>
-          </Col>
+            </p> */}
+          {/* </Col> */}
         </Row>
       </div>
     </div>
