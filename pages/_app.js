@@ -6,7 +6,8 @@ import Layout from "../components/Layout";
 import { Raleway, Josefin_Sans, Zen_Dots, Ubuntu } from "@next/font/google";
 
 const ubuntu = Ubuntu({
-  subsets: ["latin"], variable: "--font-ubuntu",
+  subsets: ["latin"],
+  variable: "--font-ubuntu",
   weight: "500",
 });
 const raleway = Raleway({ subsets: ["latin"], variable: "--font-raleway" });
