@@ -1,5 +1,5 @@
-import React from "react";
-import ProjectManager from "./ProjectManager";
+import React from "react"
+import ProjectManager from "./ProjectManager"
 
 const ProjectManagers = () => {
   return (
@@ -21,7 +21,7 @@ const ProjectManagers = () => {
         of team work and loving the work we do are key factors in making the
         experience better and more educational. Being a part of solar car spiked
         my interest in focusing more on electrical engineering and as a result
-        I'll be graduating with an EE degree.
+        I will be graduating with an EE degree.
       </ProjectManager>
 
       <ProjectManager name="Sunny Zeng" reverse={true} imgSrc="Sunny.jpg">
@@ -34,7 +34,7 @@ const ProjectManagers = () => {
         <br />
         <br />
         Now, I work towards taking our solar car to competitions and foster a
-        supportive environment for all members. In addition, I've learned the
+        supportive environment for all members. In addition, I have learned the
         importance of safety when performing hands-on tasks and also developed
         an interest in power engineering with a focus on the latter in embedded
         systems.
