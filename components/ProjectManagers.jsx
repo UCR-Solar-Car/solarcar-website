@@ -1,5 +1,5 @@
-import React from "react"
-import ProjectManager from "./ProjectManager"
+import React from "react";
+import ProjectManager from "./ProjectManager";
 
 const ProjectManagers = () => {
   return (
@@ -20,8 +20,8 @@ const ProjectManagers = () => {
         As my time at UCR is coming to an end,my main takeaway is the importance
         of team work and loving the work we do are key factors in making the
         experience better and more educational. Being a part of solar car spiked
-        my interest in focusing more on electrical engineering and as a result
-        I will be graduating with an EE degree.
+        my interest in focusing more on electrical engineering and as a result I
+        will be graduating with an EE degree.
       </ProjectManager>
 
       <ProjectManager name="Sunny Zeng" reverse={true} imgSrc="Sunny.jpg">
