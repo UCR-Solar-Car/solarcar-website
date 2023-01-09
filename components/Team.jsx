@@ -12,7 +12,7 @@ const Team = ({ team, index }) => {
           index % 2 === 0
             ? "text-solar-black border-solar-black"
             : "text-solar-gold border-solar-gold"
-        }  text-center font-josefin text-2xl border-b-2  px-2 py-4 mb-3`}
+        }  text-center font-ubuntu text-2xl border-b-2  px-2 py-4 mb-3`}
       >
         {team[0]}
       </div>

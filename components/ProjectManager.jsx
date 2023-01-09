@@ -4,7 +4,7 @@ const ProjectManager = ({ reverse, children, name, imgSrc }) => {
   return (
     <div>
       <div
-        className={`w-full text-4xl font-josefin py-3 px-5 text-solar-gray ${
+        className={`w-full text-4xl font-ubuntu py-3 px-5 text-solar-gray ${
           reverse
             ? "bg-solar-lightblue text-left"
             : "bg-solar-yellow text-right"

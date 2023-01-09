@@ -21,6 +21,7 @@ module.exports = {
         },
       },
       fontFamily: {
+        ubuntu: ["var(--font-ubuntu)", "sans-serif"],
         josefin: ["var(--font-josefin)", "sans-serif"],
         zendots: ["var(--font-zendots)", "curvsive"],
         raleway: ["var(--font-raleway)", "sans-serif"],
