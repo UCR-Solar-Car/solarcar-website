@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 
 const CoreValues = () => {
   return (
-    <div className="font-josefin">
+    <div className="font-ubuntu">
       <text className="text-center text-solar-white text-5xl p-3">
         {">> CoreValues"}
       </text>

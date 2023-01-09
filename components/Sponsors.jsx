@@ -24,7 +24,7 @@ const friend = new Array(5).fill(
 const Sponsors = () => {
   return (
     <div className="w-full flex justify-center items-center flex-col bg-solar-white">
-      <span className="bg-solar-gold w-full font-josefin text-5xl p-4 text-center">
+      <span className="bg-solar-gold w-full font-ubuntu text-5xl p-4 text-center">
         Platinum
       </span>
       <Row className="w-10/12 flex justify-center items-center">
@@ -34,7 +34,7 @@ const Sponsors = () => {
           </Col>
         ))}
       </Row>
-      <span className="bg-solar-gold w-full font-josefin text-5xl p-4 text-center">
+      <span className="bg-solar-gold w-full font-ubuntu text-5xl p-4 text-center">
         Gold
       </span>
       <Row className="w-10/12 flex justify-center items-center">
@@ -44,7 +44,7 @@ const Sponsors = () => {
           </Col>
         ))}
       </Row>
-      <span className="bg-solar-gold w-full font-josefin text-5xl p-4 text-center">
+      <span className="bg-solar-gold w-full font-ubuntu text-5xl p-4 text-center">
         Silver
       </span>
       <Row className="w-10/12 flex justify-center items-center">
@@ -54,7 +54,7 @@ const Sponsors = () => {
           </Col>
         ))}
       </Row>
-      <span className="bg-solar-gold w-full font-josefin text-5xl p-4 text-center">
+      <span className="bg-solar-gold w-full font-ubuntu text-5xl p-4 text-center">
         Bronze
       </span>
       <Row className="w-10/12 flex justify-center items-center">
@@ -64,7 +64,7 @@ const Sponsors = () => {
           </Col>
         ))}
       </Row>
-      <span className="bg-solar-gold w-full font-josefin text-5xl p-4 text-center">
+      <span className="bg-solar-gold w-full font-ubuntu text-5xl p-4 text-center">
         Friend
       </span>
       <Row className="w-10/12 flex justify-center items-center">
