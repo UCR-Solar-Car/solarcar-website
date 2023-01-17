@@ -12,7 +12,7 @@ const Link = ({ backgroundColor, link, title }) => {
         target="_blank"
         rel="noreferrer"
         href={link}
-        className={`no-underline mb-3 text-center font-josefin text-${backgroundColor} hover:text-solar-gray text-lg bg-solar-gray hover:bg-transparent py-2 w-9/12 border-solar-gray border-2`}
+        className={`no-underline mb-3 text-center font-ubuntu text-${backgroundColor} hover:text-solar-gray text-lg bg-solar-gray hover:bg-transparent py-2 w-9/12 border-solar-gray border-2`}
       >
         APPLY
       </a>

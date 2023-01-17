@@ -3,7 +3,7 @@ import React from "react";
 const AdoptText = () => {
   return (
     <div className="w-full bg-solar-black flex justify-center items-center">
-      <div className=" text-solar-white font-josefin text-2xl text-center w-9/12 my-4">
+      <div className=" text-solar-white font-ubuntu text-2xl text-center w-9/12 my-4">
         Welcome to the{" "}
         <span className="text-solar-gold">Adopt a Cell Program</span>! Here you
         can adopt one of the solar cells that will be placed on the final solar

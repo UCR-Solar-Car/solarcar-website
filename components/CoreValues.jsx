@@ -4,8 +4,10 @@ import Row from "react-bootstrap/Row";
 
 const CoreValues = () => {
   return (
+
     <div className="font-josefin font-light">
       <text className="text-center text-solar-white text-5xl p-3 font-normal">
+
         {">> CoreValues"}
       </text>
       <Row className="text-solar-white mx-auto h-full flex justify-between item-center w-[95%]">

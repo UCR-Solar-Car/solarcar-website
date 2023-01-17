@@ -37,7 +37,7 @@ const Subteams = () => {
         <span
           // key={index}
           className="bg-solar-gray text-white
-      p-5 h-4/5 w-full flex items-center justify-start font-josefin text-5xl "
+      p-5 h-4/5 w-full flex items-center justify-start font-ubuntu text-5xl "
         >
           {">>Subteams"}
         </span>
