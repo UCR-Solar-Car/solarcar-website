@@ -53,7 +53,7 @@ const AdoptInput = () => {
       <Row className="flex justify-center items-center py-4 ">
         <Col xs={6} className="text-right m-0 p-0">
           <label
-            className="text-solar-gold font-josefin font-bold text-xl text-right"
+            className="text-solar-gold font-ubuntu font-bold text-xl text-right"
             htmlFor="cell"
           >
             Cell Number:
@@ -72,7 +72,7 @@ const AdoptInput = () => {
         </Col>
         <Col xs={6} className="text-right m-0 p-0">
           <label
-            className="text-solar-gold font-josefin font-bold text-xl text-right"
+            className="text-solar-gold font-ubuntu font-bold text-xl text-right"
             htmlFor="cell"
           >
             Name to Display:
@@ -91,7 +91,7 @@ const AdoptInput = () => {
         </Col>
         <Col xs={6} className="text-right m-0 p-0">
           <label
-            className="text-solar-gold font-josefin font-bold text-xl text-right"
+            className="text-solar-gold font-ubuntu font-bold text-xl text-right"
             htmlFor="cell"
           >
             Email:
@@ -110,7 +110,7 @@ const AdoptInput = () => {
         </Col>
         <Col xs={6} className="text-right m-0 p-0">
           <label
-            className="text-solar-gold font-josefin font-bold text-xl text-right"
+            className="text-solar-gold font-ubuntu font-bold text-xl text-right"
             htmlFor="cell"
           >
             Phone Number:
@@ -129,7 +129,7 @@ const AdoptInput = () => {
         </Col>
         <Col xs={6} className="text-right m-0 p-0">
           <label
-            className="text-solar-gold font-josefin font-bold text-xl text-right"
+            className="text-solar-gold font-ubuntu font-bold text-xl text-right"
             htmlFor="cell"
           >
             PayPal Username:
@@ -161,7 +161,7 @@ const AdoptInput = () => {
           />
           <label
             htmlFor="donate"
-            className="text-solar-gold font-josefin font-bold text-xl mx-2 p-0 my-0"
+            className="text-solar-gold font-ubuntu font-bold text-xl mx-2 p-0 my-0"
           >
             I have donated!
           </label>
@@ -173,7 +173,7 @@ const AdoptInput = () => {
         >
           <button
             onClick={handleSubmit}
-            className="bg-solar-gold text-solar-black font-josefin px-4 py-2 text-xl text-center"
+            className="bg-solar-gold text-solar-black font-ubuntu px-4 py-2 text-xl text-center"
           >
             Adopt a Cell
           </button>

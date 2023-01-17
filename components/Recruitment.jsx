@@ -24,17 +24,26 @@ const Recruitment = () => {
           </p>
         </div>
         <div className="w-10/12 flex justify-evenly items-center my-4">
-          <div className="px-4 py-2 border-4 border-solar-white text-solar-white rounded-full flex justify-center items-center font-raleway">
-            <FaDiscord className="mr-2 text-3xl" />
-            <p className="m-0 text-2xl">Discord</p>
+          <div className="px-4 py-2 border-4 rounded-full flex justify-center items-center overflow-hidden relative group cursor-pointer border-solar-white text-solar-white">
+            <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+            <FaDiscord className="mr-2 text-3xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease" />
+            <span class="m-0 text-2xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease">
+              Discord
+            </span>
           </div>
-          <div className="px-4 py-2 border-4 border-solar-white text-solar-white rounded-full flex justify-center items-center font-raleway">
-            <FaLink className="mr-2 text-3xl" />
-            <p className="m-0 text-2xl">Highlander Link</p>
+          <div className="px-4 py-2 border-4 rounded-full flex justify-center items-center overflow-hidden relative group cursor-pointer border-solar-white text-solar-white">
+            <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+            <FaLink className="mr-2 text-3xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease" />
+            <span class="m-0 text-2xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease">
+              Highlander Link
+            </span>
           </div>
-          <div className="px-4 py-2 border-4 border-solar-white text-solar-white rounded-full flex justify-center items-center font-raleway">
-            <FaEnvelope className="mr-2 text-3xl" />
-            <p className="m-0 text-2xl">Questions</p>
+          <div className="px-4 py-2 border-4 rounded-full flex justify-center items-center overflow-hidden relative group cursor-pointer border-solar-white text-solar-white">
+            <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+            <FaEnvelope className="mr-2 text-3xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease" />
+            <span class="m-0 text-2xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease">
+              Questions
+            </span>
           </div>
         </div>
       </div>
