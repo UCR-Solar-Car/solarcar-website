@@ -152,16 +152,16 @@ const AdoptInput = () => {
           className="text-left m-0 p-0 flex justify-center items-center my-4"
         >
           <input
-            name="donate"
+            id="donate"
             type="checkbox"
-            className="bg-red-500"
+            className="bg-red-500 cursor-pointer"
             onChange={() => {
               setData({ ...data, donate: !data.donate });
             }}
           />
           <label
             htmlFor="donate"
-            className="text-solar-gold font-ubuntu font-bold text-xl mx-2 p-0 my-0"
+            className="text-solar-gold font-ubuntu font-bold text-xl mx-2 p-0 my-0 cursor-pointer"
           >
             I have donated!
           </label>
