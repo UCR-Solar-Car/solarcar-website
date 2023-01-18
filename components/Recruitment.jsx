@@ -25,25 +25,49 @@ const Recruitment = () => {
         </div>
         <div className="w-10/12 flex justify-evenly items-center my-4">
           <div className="px-4 py-2 border-4 rounded-full flex justify-center items-center overflow-hidden relative group cursor-pointer border-solar-white text-solar-white">
-            <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
-            <FaDiscord className="mr-2 text-3xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease" />
-            <span class="m-0 text-2xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease">
-              Discord
-            </span>
+            <a
+              href="https://discord.gg/eGskEcjNvb"
+              className="text-solar-white"
+            >
+              <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+              <FaDiscord className="mr-2 text-3xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease" />
+            </a>
+            <a
+              href="https://discord.gg/eGskEcjNvb"
+              className="text-solar-white"
+            >
+              <button class="m-0 text-2xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease">
+                Discord
+              </button>
+            </a>
           </div>
           <div className="px-4 py-2 border-4 rounded-full flex justify-center items-center overflow-hidden relative group cursor-pointer border-solar-white text-solar-white">
-            <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
-            <FaLink className="mr-2 text-3xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease" />
-            <span class="m-0 text-2xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease">
-              Highlander Link
-            </span>
+            <a
+              href="https://highlanderlink.ucr.edu/organization/ieee"
+              className="text-solar-white"
+            >
+              <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+              <FaLink className="mr-2 text-3xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease" />
+            </a>
+            <a
+              href="https://highlanderlink.ucr.edu/organization/ieee"
+              className="text-solar-white"
+            >
+              <button class="m-0 text-2xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease">
+                Highlander Link
+              </button>
+            </a>
           </div>
           <div className="px-4 py-2 border-4 rounded-full flex justify-center items-center overflow-hidden relative group cursor-pointer border-solar-white text-solar-white">
-            <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
-            <FaEnvelope className="mr-2 text-3xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease" />
-            <span class="m-0 text-2xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease">
-              Questions
-            </span>
+            <a href="mailto:ucrsolarcar@gmail.com" className="text-solar-white">
+              <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+              <FaEnvelope className="mr-2 text-3xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease" />
+            </a>
+            <a href="mailto:ucrsolarcar@gmail.com" className="text-solar-white">
+              <button class="m-0 text-2xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease">
+                Questions
+              </button>
+            </a>
           </div>
         </div>
       </div>
