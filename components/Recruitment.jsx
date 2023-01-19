@@ -31,7 +31,7 @@ const Recruitment = () => {
             >
               <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
               <FaDiscord className="mr-2 text-3xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease" />
-              <button class="m-0 text-2xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease">
+              <button className="m-0 text-2xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease">
                 Discord
               </button>
             </a>
@@ -41,18 +41,21 @@ const Recruitment = () => {
               href="https://highlanderlink.ucr.edu/organization/ieee"
               className="text-solar-white flex no-underline"
             >
-              <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+              <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
               <FaLink className="mr-2 text-3xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease" />
-              <button class="m-0 text-2xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease">
+              <button className="m-0 text-2xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease">
                 Highlander Link
               </button>
             </a>
           </div>
           <div className="px-4 py-2 border-4 rounded-full flex justify-center items-center overflow-hidden relative group cursor-pointer border-solar-white text-solar-white">
-            <a href="mailto:ucrsolarcar@gmail.com" className="text-solar-white flex no-underline">
-              <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+            <a
+              href="mailto:ucrsolarcar@gmail.com"
+              className="text-solar-white flex no-underline"
+            >
+              <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
               <FaEnvelope className="mr-2 text-3xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease" />
-              <button class="m-0 text-2xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease">
+              <button className="m-0 text-2xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease">
                 Questions
               </button>
             </a>
