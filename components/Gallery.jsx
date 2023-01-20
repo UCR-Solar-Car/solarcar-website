@@ -4,7 +4,7 @@ const Gallery = () => {
   return (
     <div className="font-raleway text-2xl pt-16">
       <div className="flex justify-center items-center">
-        <img src="/SolarArray 1temp.png" alt="" className="w-2/5 mr-auto" />
+        <img src="SolarArray 1.png" alt="" className="w-2/5 mr-auto" />
         <div className="w-1/2 h-full p-4 text-solar-white break-words">
           Our team members are hard at work dedicating countless hours
           designing, assembling, and testing our car competition. why be the
