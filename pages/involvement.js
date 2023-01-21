@@ -1,8 +1,7 @@
 import React from "react";
-import Header from "../components/Header"
+import Header from "../components/Header";
 import Clubroom from "../components/Clubroom";
 import Organization from "../components/Organization";
-
 
 const involvement = () => {
   return (
