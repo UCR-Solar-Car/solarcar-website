@@ -29,7 +29,7 @@ const Recruitment = () => {
               href="https://discord.gg/eGskEcjNvb"
               className="text-solar-white flex no-underline"
             >
-              <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+              <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease -translate-x-14"></span>
               <FaDiscord className="mr-2 text-3xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease" />
               <button className="m-0 text-2xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease">
                 Discord
@@ -41,7 +41,7 @@ const Recruitment = () => {
               href="https://highlanderlink.ucr.edu/organization/ieee"
               className="text-solar-white flex no-underline"
             >
-              <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+              <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease -translate-x-4"></span>
               <FaLink className="mr-2 text-3xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease" />
               <button className="m-0 text-2xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease">
                 Highlander Link
@@ -53,7 +53,7 @@ const Recruitment = () => {
               href="mailto:ucrsolarcar@gmail.com"
               className="text-solar-white flex no-underline"
             >
-              <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+              <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45  bg-solar-white hover:text-solar-black top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease -translate-x-12"></span>
               <FaEnvelope className="mr-2 text-3xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease" />
               <button className="m-0 text-2xl relative hover:text-solar-black transition duration-300 group-hover:text-solar-black ease">
                 Questions
