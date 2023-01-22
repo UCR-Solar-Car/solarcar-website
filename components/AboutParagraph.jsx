@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutParagraph = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center justify  pb-8">
       <p className="text-center text-3xl font-raleway w-10/12 my-40">
         <span className="text-solar-white">
           Today, the University of California Riverside Solar Car team consists
