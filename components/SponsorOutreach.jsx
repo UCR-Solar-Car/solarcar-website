@@ -16,13 +16,6 @@ const SponsorOutreach = () => {
           </button>
         </a>
       </div>
-      <a
-        href="/adopt"
-        target="_blank"
-        className="border-2 text-white !no-underline border-solar-white hover:bg-solar-blue px-12 py-2 rounded-full"
-      >
-        BECOME A SPONSOR {">>"}
-      </a>
     </div>
   );
 };
