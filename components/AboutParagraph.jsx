@@ -3,7 +3,7 @@ import React from "react";
 const AboutParagraph = () => {
   return (
     <div className="flex flex-col items-center">
-      <p className="text-center text-3xl font-raleway w-10/12 my-40">
+      <p className="text-center text-3xl font-raleway w-10/12 my-20">
         <span className="text-solar-white">
           Today, the University of California Riverside Solar Car team consists
           of many talented, undergraduate students who aim to construct a
