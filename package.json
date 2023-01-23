@@ -5,12 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint",
     "check": "prettier --check .",
     "format": "prettier --write .",
-    "eslint": "eslint . --ext js --ext jsx --ext ts --ext tsx",
-    "create-env": "printenv > .env"
+    "eslint": "eslint . --ext js --ext jsx --ext ts --ext tsx"
   },
   "dependencies": {
     "@next/font": "^13.1.1",
