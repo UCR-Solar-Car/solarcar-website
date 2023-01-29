@@ -28,7 +28,7 @@ const Introduction = () => {
 
         <Link
           href="/about"
-          className="rounded-full m-5 bg-solar-lightblue hover:bg-transparent font-ubuntu text-solar-gray hover:text-white py-2 px-4 border no-underline "
+          className="rounded-full m-5 hover:bg-solar-lightblue font-ubuntu text-solar-white hover:text-solar-gray py-2 px-4 border no-underline "
         >
           {"LEARN MORE >>"}
         </Link>
