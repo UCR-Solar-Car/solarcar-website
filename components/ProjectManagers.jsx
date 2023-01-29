@@ -24,7 +24,7 @@ const ProjectManagers = () => {
         will be graduating with an EE degree.
       </ProjectManager>
 
-      <ProjectManager name="Sunny Zeng" reverse={true} imgSrc="Sunny.jpg">
+      <ProjectManager name="Sunny Zeng" reverse={true} imgSrc="Sunny-ZoomedOut-Cutoff.png">
         Learning about the Solar car team through an IEEE flyer, I joined hoping
         for hands-on opportunities to learn more electrical engineering skills
         and meet fellow peers. The activites and supportive environment I
