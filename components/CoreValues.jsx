@@ -4,13 +4,11 @@ import Row from "react-bootstrap/Row";
 
 const CoreValues = () => {
   return (
-    <div className="font-raleway font-light">
-      <p className="m-4 font-ubuntu font-light">
-        <text className="text-center text-solar-white font-light text-5xl">
-          {">> Core Values"}
-        </text>
+    <div className="font-raleway font-light flex flex-col items-center">
+      <p className="m-4 font-ubuntu w-10/12 text-left text-solar-white font-light text-5xl">
+        {">> Core Values"}
       </p>
-      <Row className="text-solar-white mx-auto h-full flex justify-between item-center w-[95%]">
+      <Row className="text-solar-white mx-auto h-full flex justify-between item-center w-10/12">
         {/* Large and Xl screens */}
         <Col
           sm={6}

@@ -1,5 +1,6 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 
 const cells = new Array(255).fill(0);
 const names = new Array(5).fill("Scotty Highlander");
