@@ -1,5 +1,6 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import Col  from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import { FaLink } from "react-icons/fa";
 
 const Event = ({ name, date, time, location, address, link }) => {

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Col, Row } from "react-bootstrap";
+import Col  from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import Link from "./Link";
 
 const links = new Array(10).fill({
