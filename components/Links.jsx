@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Col  from "react-bootstrap/Col";
+import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Link from "./Link";
 

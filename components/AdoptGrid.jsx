@@ -1,5 +1,5 @@
 import React from "react";
-import Col  from "react-bootstrap/Col";
+import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
 const cells = new Array(255).fill(0);
