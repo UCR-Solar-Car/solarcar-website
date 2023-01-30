@@ -1,4 +1,3 @@
-//rafec
 import React from "react";
 import { FaDiscord } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
