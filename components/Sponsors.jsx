@@ -1,5 +1,6 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 
 const platinum = new Array(2).fill(
   "https://assets.noviams.com/novi-file-uploads/tta/members/members-triad_lg_stk_k_gld_cmyk-[converted]-1.jpg"
