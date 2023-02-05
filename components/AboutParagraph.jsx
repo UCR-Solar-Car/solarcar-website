@@ -21,12 +21,12 @@ const AboutParagraph = () => {
           className="w-1/2"
           src="BackLeftTransparent 1.png"
           alt="Back Left Transparent"
-        ></img>
+        />
         <img
           className="w-1/2"
           src="BackLeftRender 1.png"
           alt="Back Left Render"
-        ></img>
+        />
       </div>
     </div>
   );
