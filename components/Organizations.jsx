@@ -3,7 +3,7 @@ import Organization from "./Organization";
 
 const Organizations = () => {
   return (
-    <div>
+    <React.Fragment>
       <Organization
         image="WINC.PNG"
         title="Women in Computing (WINC)"
@@ -11,7 +11,7 @@ const Organizations = () => {
         discord="https://discord.gg/szzhxz3S"
         website="https://winc.cs.ucr.edu/"
       />
-    </div>
+    </React.Fragment>
   );
 };
 

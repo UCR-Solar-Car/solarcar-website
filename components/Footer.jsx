@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-function footer() {
+const Footer = () => {
   return (
     <div className="flex w-full bg-solar-black justify-center py-8">
       <div className="flex justify-evenly items-center w-3/4 sm:w-1/2 text-5xl">
@@ -67,5 +67,5 @@ function footer() {
       </div>
     </div>
   );
-}
-export default footer;
+};
+export default Footer;
