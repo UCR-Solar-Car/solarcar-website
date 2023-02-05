@@ -38,11 +38,6 @@ const Event = ({ name, date, time, location, address, link }) => {
               Detail
             </button>
           </Col>
-          {/* <Col>
-            {/* <p className="m-0 p-0 font-bold text-xl font-ubuntu text-solar-gray">
-              .
-            </p> */}
-          {/* </Col> */}
         </Row>
       </div>
     </div>
