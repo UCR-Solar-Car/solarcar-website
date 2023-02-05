@@ -4,7 +4,7 @@ const AboutTiles = () => {
   return (
     <div className="font-raleway text-2xl">
       <div className="flex justify-center items-center bg-solar-gold">
-        <img src="Chassis 1.png" alt="" className="w-1/2" />
+        <img src="Chassis 1.png" alt="A picture of the solar vehicle's chassis" className="w-1/2" />
         <div className="w-1/2 h-full p-4">
           Having begun as a small project with a few members and nothing but an
           idea and a dream, the team and project have both developed into a
