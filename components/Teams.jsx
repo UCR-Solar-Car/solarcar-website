@@ -6,7 +6,7 @@ import teams from "./data/teams";
 
 const Teams = () => {
   return (
-    <div>
+    <React.Fragment>
       <Row>
         {teams.map((team, index) => (
           <Col key={index} xl={3} xs={6} className="flex items-stretch m-0 p-0">
@@ -14,7 +14,7 @@ const Teams = () => {
           </Col>
         ))}
       </Row>
-    </div>
+    </React.Fragment>
   );
 };
 
