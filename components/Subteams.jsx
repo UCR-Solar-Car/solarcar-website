@@ -1,6 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Subteam from "./Subteam";
+import subteamsArr from "./data/subteams";
 
 const Subteams = () => {
   return (

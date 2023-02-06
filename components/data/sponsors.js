@@ -18,3 +18,6 @@ const bronze = [
   "https://www.newdaysolar.com/media/logo/NDS-Logo.svg",
   "https://www.sensata.com/sites/default/files/media/images/2022-10-25/gigavac_logo_gradient_R_bg.png",
 ];
+
+export default platinum;
+gold, silver, bronze;

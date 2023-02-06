@@ -25,3 +25,5 @@ const subteamsArr = [
       "The Business team maintains and expands the business aspect of Solar Car. This includes managing social/fundraiser events, updating social medias, and reaching out for sponsorships via emails, calls, and forms.",
   },
 ];
+
+export default subteamsArr;
