@@ -5,7 +5,11 @@ const Recruitment = () => {
   return (
     <div className="w-full relative flex justify-center items-center">
       <div className="w-full">
-        <img src="/BackLeftRender 1.png" alt="" className="w-full h-50 object-cover object-center" />
+        <img
+          src="/BackLeftRender 1.png"
+          alt=""
+          className="w-full h-50 object-cover object-center"
+        />
       </div>
       <div className="absolute top-0 left-0 w-full flex justify-center items-center flex-col m-0 p-0  bg-gradient-to-b from-transparent to-black h-full">
         <div className="w-10/12 flex justify-start items-center">
