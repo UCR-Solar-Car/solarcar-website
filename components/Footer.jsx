@@ -1,5 +1,11 @@
 import React from "react";
-import { FaFacebookSquare, FaDiscord, FaInstagram, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import {
+  FaFacebookSquare,
+  FaDiscord,
+  FaInstagram,
+  FaLinkedin,
+  FaEnvelope,
+} from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Footer = () => {
