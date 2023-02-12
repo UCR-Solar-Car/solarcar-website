@@ -18,7 +18,6 @@ module.exports = {
           black: "#1F1E21",
           blue: "#78ADC5",
           lightblue: "#9FE1FF",
-          black: "000000",
         },
       },
       fontFamily: {

@@ -3,7 +3,7 @@ import ProjectManager from "./ProjectManager";
 
 const ProjectManagers = () => {
   return (
-    <div>
+    <div className="bg-solar-black">
       <ProjectManager name="Leen Eisa" reverse={false} imgSrc="Leen.jpg">
         Joining UCR Solar Car has to be one of the best things I have done in
         UCR. I originally joined the team to get more involved in UCR as

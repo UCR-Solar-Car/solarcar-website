@@ -45,10 +45,10 @@ const Question = ({ index, question, answer }) => {
 
   return (
     <Col className="pb-2">
-      <Accordion.Item className={""} eventKey={index}>
+      <Accordion.Item className={"!border-none underlayColor=transparent"} eventKey={index}>
         <Accordion.Button
           onClick={() => setToggle(!toggle)}
-          className="!bg-solar-gray text-white after:hidden p-0"
+          className="!bg-solar-gray text-white after:hidden p-0 focus:!shadow-none"
         >
           <div className="!border-solar-gold !border-l-8 w-full flex justify-between items-center p-3">
             <p className="text-white text-3xl m-0 ">{question}</p>
@@ -59,7 +59,7 @@ const Question = ({ index, question, answer }) => {
         </Accordion.Button>
 
         <Accordion.Body
-          className="!bg-black flex justify-left items-center !border-l-8 !border-solar-blue"
+          className="!bg-solar-black flex justify-left items-center !border-l-8 !border-solar-blue"
           eventKey={index}
         >
           <p className=" text-white text-lg p-3 ">{answer}</p>
@@ -71,7 +71,7 @@ const Question = ({ index, question, answer }) => {
 
 const FAQ = () => {
   return (
-    <div className=" flex flex-col font-raleway bg-black">
+    <div className=" flex flex-col font-raleway bg-solar-black">
       <p className="text-left text-white font-ubuntu text-5xl m-4">
         {">> Frequently Asked Questions"}
       </p>

@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectManager = ({ reverse, children, name, imgSrc }) => {
   return (
-    <div>
+    <div className="bg-solar-black">
       <div
         className={`w-full text-4xl font-ubuntu py-3 px-5 text-solar-gray ${
           reverse
@@ -12,7 +12,7 @@ const ProjectManager = ({ reverse, children, name, imgSrc }) => {
       >
         {name}
       </div>
-      <div className="flex w-full bg-solar-gray justify-center items-start">
+      <div className="flex w-full justify-center items-start">
         <div
           className={`mt-24 sm:flex w-11/12 ${
             reverse ? "flex-row-reverse" : "flex-row"
