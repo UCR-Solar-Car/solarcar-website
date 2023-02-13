@@ -45,7 +45,10 @@ const Question = ({ index, question, answer }) => {
 
   return (
     <Col className="pb-2">
-      <Accordion.Item className={"!border-none underlayColor=transparent"} eventKey={index}>
+      <Accordion.Item
+        className={"!border-none underlayColor=transparent"}
+        eventKey={index}
+      >
         <Accordion.Button
           onClick={() => setToggle(!toggle)}
           className="!bg-solar-gray text-white after:hidden p-0 focus:!shadow-none"
@@ -76,9 +79,9 @@ const FAQ = () => {
         {">> Frequently Asked Questions"}
       </p>
       <Row>
-        <Col xl={6} md={6} xs={12} m-0 p-0>
+        <Col xl={6} md={6} xs={12} className="m-0 p-0">
           <div className="flex justify-center">
-            <Row className="w-10/12 flex m-3  ">
+            <Row className="w-10/12 flex m-0">
               <Accordion defaultActiveKey="0" alwaysOpen>
                 {faqs.slice(0, faqs.length / 2).map((question, index) => (
                   <Question
@@ -93,9 +96,9 @@ const FAQ = () => {
           </div>
         </Col>
 
-        <Col xl={6} md={6} xs={12} m-0 p-0>
+        <Col xl={6} md={6} xs={12} className="m-0 p-0">
           <div className="flex justify-center">
-            <Row className="w-10/12 flex m-3  ">
+            <Row className="w-10/12 flex">
               <Accordion defaultActiveKey="0" alwaysOpen>
                 {faqs
                   .slice(faqs.length / 2, faqs.length)
