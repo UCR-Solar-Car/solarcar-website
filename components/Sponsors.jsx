@@ -1,25 +1,12 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import platinum from "./data/sponsors";
+import gold from "./data/sponsors";
+import silver from "./data/sponsors";
+import bronze from "./data/sponsors";
 
-const platinum = new Array(2).fill(
-  "https://assets.noviams.com/novi-file-uploads/tta/members/members-triad_lg_stk_k_gld_cmyk-[converted]-1.jpg"
-);
-
-const gold = new Array(3).fill(
-  "https://assets.noviams.com/novi-file-uploads/tta/members/members-triad_lg_stk_k_gld_cmyk-[converted]-1.jpg"
-);
-
-const silver = new Array(1).fill(
-  "https://assets.noviams.com/novi-file-uploads/tta/members/members-triad_lg_stk_k_gld_cmyk-[converted]-1.jpg"
-);
-
-const bronze = new Array(3).fill(
-  "https://assets.noviams.com/novi-file-uploads/tta/members/members-triad_lg_stk_k_gld_cmyk-[converted]-1.jpg"
-);
-
-const friend = new Array(5).fill(
-  "https://assets.noviams.com/novi-file-uploads/tta/members/members-triad_lg_stk_k_gld_cmyk-[converted]-1.jpg"
-);
+const friend = [];
 
 const Sponsors = () => {
   return (
@@ -49,7 +36,7 @@ const Sponsors = () => {
       </span>
       <Row className="w-10/12 flex justify-center items-center">
         {silver.map((sponsor, index) => (
-          <Col xl={3} key={index} className="flex justify-center items-center">
+          <Col xl={5} key={index} className="flex justify-center items-center">
             <img src={sponsor} alt="sponsor" />
           </Col>
         ))}
@@ -59,7 +46,7 @@ const Sponsors = () => {
       </span>
       <Row className="w-10/12 flex justify-center items-center">
         {bronze.map((sponsor, index) => (
-          <Col xl={2} key={index} className="flex justify-center items-center">
+          <Col xl={5} key={index} className="flex justify-center items-center">
             <img src={sponsor} alt="sponsor" />
           </Col>
         ))}

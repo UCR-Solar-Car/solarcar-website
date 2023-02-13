@@ -4,10 +4,10 @@ import Teams from "./Teams";
 
 const Crew = () => {
   return (
-    <div>
+    <React.Fragment>
       <Leads />
       <Teams />
-    </div>
+    </React.Fragment>
   );
 };
 

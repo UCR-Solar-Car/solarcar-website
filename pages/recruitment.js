@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Subteams from "../components/Subteams";
 import Recruitment from "../components/Recruitment";
+import CalendarIntro from "../components/CalendarIntro";
 
 const recruitment = () => {
   return (
@@ -9,6 +10,7 @@ const recruitment = () => {
       <Header image="About.PNG" title="Recruitment" />
       <Recruitment />
       <Subteams />
+      <CalendarIntro />
     </div>
   );
 };

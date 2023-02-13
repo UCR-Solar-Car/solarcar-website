@@ -3,7 +3,6 @@ import React from "react";
 const Subteam = ({ team, blurb, index }) => {
   return (
     <span
-      // key={index}
       className={`${
         index % 2 === 0
           ? "bg-solar-gold text-black"
@@ -26,12 +25,6 @@ const Subteam = ({ team, blurb, index }) => {
         </p>
 
         <p className="text-2xl font-raleway p-10 text-center ">{blurb}</p>
-
-        {/* <p className= "text-5xl font-ubuntu p-10 flex items-center text-center justify-center">{team}</p>
-
-        <p className={`${
-          index % 2 === 0 ? "border-l-2 border-black " : "border-r-2 border-solar-gold "
-        }  text-xl font-ubuntu p-10 text-center `}>{blurb}</p> */}
       </div>
     </span>
   );
