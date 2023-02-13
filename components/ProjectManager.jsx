@@ -12,7 +12,7 @@ const ProjectManager = ({ reverse, children, name, imgSrc }) => {
       >
         {name}
       </div>
-      <div className="flex w-full bg-solar-gray justify-center items-start">
+      <div className="flex w-full justify-center items-start">
         <div
           className={`mt-24 sm:flex w-11/12 ${
             reverse ? "flex-row-reverse" : "flex-row"
