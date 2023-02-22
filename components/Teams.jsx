@@ -1,65 +1,20 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import Team from "./Team";
-
-const teams = [
-  [
-    "ELECTRICAL",
-    "ELECTRICAL",
-    "ELECTRICAL",
-    "ELECTRICAL",
-    "ELECTRICAL",
-    "ELECTRICAL",
-  ],
-  [
-    "MECHANICAL",
-    "MECHANICAL",
-    "MECHANICAL",
-    "MECHANICAL",
-    "MECHANICAL",
-    "MECHANICAL",
-    "MECHANICAL",
-  ],
-  [
-    "SOFTWARE",
-    "SOFTWARE",
-    "SOFTWARE",
-    "SOFTWARE",
-    "SOFTWARE",
-    "SOFTWARE",
-    "SOFTWARE",
-  ],
-  [
-    "TELEMETRY",
-    "TELEMETRY",
-    "TELEMETRY",
-    "TELEMETRY",
-    "TELEMETRY",
-    "TELEMETRY",
-    "TELEMETRY",
-  ],
-  [
-    "BUSINESS",
-    "BUSINESS",
-    "BUSINESS",
-    "BUSINESS",
-    "BUSINESS",
-    "BUSINESS",
-    "BUSINESS",
-  ],
-];
+import teams from "./data/teams";
 
 const Teams = () => {
   return (
-    <div>
+    <React.Fragment>
       <Row>
         {teams.map((team, index) => (
-          <Col key={index}>
-            <Team team={team} />
+          <Col key={index} xl={3} xs={6} className="flex items-stretch m-0 p-0">
+            <Team team={team} index={index} />
           </Col>
         ))}
       </Row>
-    </div>
+    </React.Fragment>
   );
 };
 

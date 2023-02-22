@@ -3,12 +3,20 @@ import Link from "next/link";
 
 const Introduction = () => {
   return (
-    <div className="box-content w-12/12  p-5 m-4 flex self-auto flex-col justify-center items-center ">
-      <h1 className="text-solar-gold font-josefin text-center text-6xl my-5">
-        {">>About Us"}
-      </h1>
-      <div className="px-5 py-5">
-        <p className="text-white font-raleway text-center text-2xl leading-10">
+    <div className=" flex items-center justify-center ">
+      <div className="box-content w-10/12  p-5 m-4 flex self-auto flex-col justify-center items-center ">
+        <p className="font-ubuntu text-center text-5xl my-5">
+          <span className="text-solar-gold">Founded by co-founders </span>
+          <span className="text-solar-white">Kyle Semelka </span>
+          <span className="text-solar-gold">and </span>
+          <span className="text-solar-white">Paven Bhogal </span>
+          <span className="text-solar-gold">in 2017</span>
+        </p>
+        <img className="w-full object-cover" src={"GroupPhoto.jpg"} alt="" />
+        <p className="text-solar-gold font-ubuntu text-center text-6xl my-5">
+          {">>About Us"}
+        </p>
+        <p className="text-white font-raleway text-center text-2xl ">
           The University of California Riverside Solar Car team consists of many
           talented, undergraduate students who aim to construct a full-scaled
           solar car to compete in the Formula Sun Grand Prix, and the American
@@ -16,12 +24,12 @@ const Introduction = () => {
           teams and their solar-powered vehicles to finish a 2,000 mile
           cross-country journey.
         </p>
-      </div>
-      <div className="mxauto py-5">
-        <Link href="./about">
-          <button className="rounded-full bg-solar-lightblue font-josefin text-solar-gray px-5 w-72 h-14 mx-auto my-3s">
-            {"LEARN MORE>>"}
-          </button>
+
+        <Link
+          href="/about"
+          className="rounded-full m-5 hover:bg-solar-lightblue font-ubuntu text-solar-white hover:text-solar-gray py-2 px-4 border no-underline "
+        >
+          {"LEARN MORE >>"}
         </Link>
       </div>
     </div>

@@ -1,11 +1,12 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import { FaLink } from "react-icons/fa";
 
 const Event = ({ name, date, time, location, address, link }) => {
   return (
     <div className="bg-solar-gray flex justify-center items-center w-full flex-col">
-      <span className="bg-solar-gold w-full text-solar-gray font-josefin text-3xl p-2 text-center">
+      <span className="bg-solar-gold w-full text-solar-gray font-ubuntu text-3xl p-2 text-center">
         {name}
       </span>
       <div className="w-10/12 text-solar-gold flex justify-center items-center">
@@ -14,28 +15,28 @@ const Event = ({ name, date, time, location, address, link }) => {
             xl={5}
             className=" w-full my-4 flex justify-center items-start flex-col"
           >
-            <p className="m-0 p-0 font-bold text-xl font-josefin">When?</p>
-            <p className="m-0 p-0 text-xl font-josefin">{date}</p>
-            <p className="m-0 p-0 text-xl font-josefin">{time}</p>
+            <p className="m-0 p-0 font-bold text-xl font-ubuntu">When?</p>
+            <p className="m-0 p-0 text-xl font-ubuntu">{date}</p>
+            <p className="m-0 p-0 text-xl font-ubuntu">{time}</p>
           </Col>
           <Col
             xl={5}
             className=" w-full my-4 flex justify-center items-start flex-col"
           >
-            <p className="m-0 p-0 font-bold text-xl font-josefin">Where?</p>
-            <p className="m-0 p-0 text-xl font-josefin">{location}</p>
-            <p className="m-0 p-0 text-xl font-josefin">{address}</p>
+            <p className="m-0 p-0 font-bold text-xl font-ubuntu">Where?</p>
+            <p className="m-0 p-0 text-xl font-ubuntu">{location}</p>
+            <p className="m-0 p-0 text-xl font-ubuntu">{address}</p>
           </Col>
           <Col xl={2} className="flex justify-center items-center">
-            <a
+            <button
               href={link}
               target="_blank"
-              className="bg-solar-gold hover:text-solar-gray no-underline text-solar-gray font-josefin px-4 py-2 text-xl text-center flex justify-center items-center"
+              className="  bg-solar-gold hover:bg-solar-gray text-solar-gray hover:text-solar-gold hover:outline no-underline font-ubuntu  text-2xl text-center flex items-center  px-5 py-2 my-3 indent-2"
               rel="noreferrer"
             >
-              <FaLink className="text-solar-gray mx-2" />
-              Details
-            </a>
+              <FaLink />
+              Detail
+            </button>
           </Col>
         </Row>
       </div>

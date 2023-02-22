@@ -1,18 +1,15 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import Lead from "./Lead";
-const leads = new Array(10).fill({
-  position: "Co Project Manager",
-  name: "Leen Eisa",
-  photo: "Leen.jpg",
-});
+import leads from "./data/leads";
 
 const Leads = () => {
   return (
-    <div className=" flex justify-center items-center">
-      <Row className="w-10/12">
+    <div className=" flex items-center justify-center mb-4 ">
+      <Row className="w-10/12 flex justify-center">
         {leads.map((lead, index) => (
-          <Col xl={3} md={6} xs={12} key={index} className="p-4">
+          <Col xl={3} md={6} sm={6} xs={6} key={index} className="p-4">
             <Lead
               name={lead.name}
               position={lead.position}

@@ -1,9 +1,3 @@
-# Cloud Run Template Microservice
-
-A template repository for a Cloud Run microservice, written in Node.js.
-
-[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://solarcar-website-dev-6ise6jripa-uw.a.run.app/)
-
 ## Getting Started
 
 First, run the development server:

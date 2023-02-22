@@ -5,30 +5,29 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint",
     "check": "prettier --check .",
     "format": "prettier --write .",
-    "eslint": "eslint . --ext js --ext jsx --ext ts --ext tsx",
-    "prepare": "husky install",
-    "create-env": "printenv > .env"
+    "eslint": "eslint . --ext js --ext jsx --ext ts --ext tsx"
   },
   "dependencies": {
+    "@next/font": "^13.1.1",
     "axios": "^1.2.1",
     "bootstrap": "^5.2.3",
-    "firebase": "^9.15.0",
     "framer-motion": "^7.9.1",
-    "next": "13.0.6",
-    "react": "18.2.0",
+    "next": "^13.1.1",
+    "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
-    "react-dom": "18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.7.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "eslint": "^8.29.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-config-next": "^13.0.6",
+    "eslint-config-next": "^13.1.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-react": "^7.31.11",
     "husky": "^8.0.0",
