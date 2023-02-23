@@ -85,7 +85,7 @@ jobs:
   deploy:
     environment:
       name: Production
-      url: https://ucr-solar-car.github.io/solarcar-website-dev/
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
