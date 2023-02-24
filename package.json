@@ -2,6 +2,7 @@
   "name": "solarcar-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ucr-solar-car.github.io/solarcar-website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
