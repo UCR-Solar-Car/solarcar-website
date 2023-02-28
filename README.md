@@ -1,3 +1,7 @@
+## github page deployment
+link: https://ucr-solar-car.github.io/solarcar-website/
+
+
 ## Getting Started
 
 First, run the development server:
