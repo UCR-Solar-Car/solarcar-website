@@ -1,6 +1,6 @@
 ## github page deployment
-link: https://ucr-solar-car.github.io/solarcar-website/
 
+link: https://ucr-solar-car.github.io/solarcar-website/
 
 ## Getting Started
 
