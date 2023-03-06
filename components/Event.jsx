@@ -1,5 +1,6 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import { FaLink } from "react-icons/fa";
 
 const Event = ({ name, date, time, location, address, link }) => {
@@ -37,11 +38,6 @@ const Event = ({ name, date, time, location, address, link }) => {
               Detail
             </button>
           </Col>
-          {/* <Col>
-            {/* <p className="m-0 p-0 font-bold text-xl font-ubuntu text-solar-gray">
-              .
-            </p> */}
-          {/* </Col> */}
         </Row>
       </div>
     </div>

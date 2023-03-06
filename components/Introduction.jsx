@@ -16,7 +16,6 @@ const Introduction = () => {
         <p className="text-solar-gold font-ubuntu text-center text-6xl my-5">
           {">>About Us"}
         </p>
-        {/* <div className="px-5 py-5"> */}
         <p className="text-white font-raleway text-center text-2xl ">
           The University of California Riverside Solar Car team consists of many
           talented, undergraduate students who aim to construct a full-scaled

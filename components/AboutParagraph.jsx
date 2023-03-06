@@ -15,18 +15,18 @@ const AboutParagraph = () => {
           solar-powered vehicles to finish a 2,000 mile cross-country journey.
         </span>
       </p>
-      <div className="bg-solar-gold w-[100%] h-10"></div>
+      <div className="bg-solar-gold"></div>
       <div className="flex">
         <img
           className="w-1/2"
           src="BackLeftTransparent 1.png"
           alt="Back Left Transparent"
-        ></img>
+        />
         <img
           className="w-1/2"
           src="BackLeftRender 1.png"
           alt="Back Left Render"
-        ></img>
+        />
       </div>
     </div>
   );

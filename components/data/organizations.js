@@ -1,0 +1,81 @@
+const organizations = [
+  {
+    image: "acm-ucr-logo.webp",
+    title: "ACM @UCR",
+    ig: "https://www.instagram.com/acm_ucr/",
+    discord: "https://discord.gg/NXXV2gs",
+    website: "https://acm.cs.ucr.edu/",
+  },
+  {
+    image: "WINC.PNG",
+    title: "Women in Computing (WINC)",
+    ig: "https://www.instagram.com/wincucr/?hl=en",
+    discord: "https://discord.gg/szzhxz3S",
+    website: "https://winc.cs.ucr.edu/",
+  },
+  {
+    image: "gamespawnwhite.webp",
+    title: "GameSpawn",
+    ig: "https://www.instagram.com/gamespawn.ucr/?hl=en",
+    discord: "https://discord.com/invite/ejzg2Wb",
+    website: "https://gamespawn.github.io/",
+  },
+  {
+    image: "cyberucr.webp",
+    title: "Cyber@UCR",
+    ig: "https://www.instagram.com/cyber_ucr/",
+    discord: "https://discord.com/invite/vESWWrm",
+    website: "https://cyber.cs.ucr.edu/",
+  },
+  {
+    image: "swe.webp",
+    title: "Society of Women Engineers (SWE)",
+    ig: "https://www.instagram.com/swe.ucr/?hl=en",
+    discord: "",
+    website: "https://ucrswe.org/",
+  },
+  {
+    image: "ticsucr.webp",
+    title: "Technical Interview & Coding Support (TICS)",
+    ig: "https://www.instagram.com/tics_ucr/?hl=en",
+    discord: "",
+    website: "",
+  },
+  {
+    image: "ccc.webp",
+    title: "Competitive Coding Club",
+    ig: "",
+    discord: "https://discord.gg/mWRfxmDyvX",
+    website: "",
+  },
+  {
+    image: "designucr.webp",
+    title: "Design@UCR",
+    ig: "https://www.instagram.com/designatucr/?hl=en",
+    discord: "",
+    website: "https://www.designatucr.com/",
+  },
+  {
+    image: "ieee.webp",
+    title: "Institute of Electrical and Electronics Engineers (IEEE)",
+    ig: "https://www.instagram.com/ieeeucr/?hl=en",
+    discord: "https://discord.com/invite/Ugjp6Us",
+    website: "https://ieeeucr.github.io/",
+  },
+  {
+    image: "uas.webp",
+    title: "Unmanned Aerial Systems",
+    ig: "https://www.instagram.com/ucruas/",
+    discord: "https://discord.com/invite/mUqGfuq",
+    website: "https://ucr-uas.weebly.com/",
+  },
+  {
+    image: "robosub.webp",
+    title: "Robo Sub",
+    ig: "https://www.instagram.com/robosubucr/?hl=en",
+    discord: "",
+    website: "https://robosubucr.weebly.com/",
+  },
+];
+
+export default organizations;

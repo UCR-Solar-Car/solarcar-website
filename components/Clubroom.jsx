@@ -21,7 +21,6 @@ const Clubroom = () => {
             additional questions, please contact us through email below!
           </p>
         </div>
-        ;
       </div>
     </div>
   );
