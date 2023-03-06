@@ -1,7 +1,5 @@
 import React from "react";
-import { FaDiscord } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaLink } from "react-icons/fa";
+import { FaDiscord, FaInstagram, FaLink } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Organization = ({ title, image, discord, ig, website }) => {
