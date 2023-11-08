@@ -7,36 +7,20 @@ import { FaMinus } from "react-icons/fa";
 
 const faqs = [
   {
-    q: "This is a question is it 1?",
-    a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius sit amet mattis vulputate enim nulla aliquet. Amet tellus cras adipiscing enim eu turpis egestas pretium.",
+    q: "What does the UCR solar car team do?",
+    a: "The solar car team at UCR is a club that is made of 4 sub-teams that include Electrical, Telemetry, Mechanical, and Software. The goal is to construct a full-scaled solar car to compete in the Formula Sun Grand Prix, and the American Solar Challenge: a national collegiate competition which requires teams and their solar-powered vehicles to finish a 2,000 mile cross-country journey.",
   },
   {
-    q: "This is a question is it 2?",
-    a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius sit amet mattis vulputate enim nulla aliquet. Amet tellus cras adipiscing enim eu turpis egestas pretium.",
+    q: "How can I join the UCR solar car team?",
+    a: "There is no application for joining the solar car team. You can join our Discord server to meet fellow solar car team members and to keep posted on upcoming meetings, and events.",
   },
   {
-    q: "This is a question is it 3?",
-    a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius sit amet mattis vulputate enim nulla aliquet. Amet tellus cras adipiscing enim eu turpis egestas pretium.",
+    q: "Can anyone join the UCR solar car team?",
+    a: "The UCR solar car team is open to any UCR student regardless of major. Freshman and transfer students are welcome to join!",
   },
   {
-    q: "This is a question is it 4?",
-    a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius sit amet mattis vulputate enim nulla aliquet. Amet tellus cras adipiscing enim eu turpis egestas pretium.",
-  },
-  {
-    q: "This is a question is it 5?",
-    a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius sit amet mattis vulputate enim nulla aliquet. Amet tellus cras adipiscing enim eu turpis egestas pretium.",
-  },
-  {
-    q: "This is a question is it 6?",
-    a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius sit amet mattis vulputate enim nulla aliquet. Amet tellus cras adipiscing enim eu turpis egestas pretium.",
-  },
-  {
-    q: "This is a question is it 7?",
-    a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius sit amet mattis vulputate enim nulla aliquet. Amet tellus cras adipiscing enim eu turpis egestas pretium.",
-  },
-  {
-    q: "This is a question is it 8?",
-    a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius sit amet mattis vulputate enim nulla aliquet. Amet tellus cras adipiscing enim eu turpis egestas pretium.",
+    q: "When are the general meetings, events, socials?",
+    a: "For the lasted information regarding any general meetings, indivualul team meetings, meetings events, or socials refer to our Discord server.",
   },
 ];
 

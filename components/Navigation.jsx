@@ -28,38 +28,54 @@ const Navigation = () => {
         <img alt="logo" src="logo.png" />
       </Link>
       <div className="w-1/2 flex justify-end md:justify-between items-center mr-5 ">
-        <motion.a
+        <motion.div
           whileHover={{ scale: 1.2 }}
           transition={{ type: "spring", stiffness: 500 }}
-          className="hidden md:block m-3 no-underline font-zendots text-sm md:text-xl text-[#ffffff] hover:text-solar-lightblue"
-          href="/about"
+          className="hidden md:block m-3"
         >
-          About
-        </motion.a>
-        <motion.a
+          <Link
+            href="/about"
+            className=" no-underline font-zendots text-sm md:text-xl text-[#ffffff] hover:text-solar-lightblue"
+          >
+            About
+          </Link>
+        </motion.div>
+        <motion.div
           whileHover={{ scale: 1.2 }}
           transition={{ type: "spring", stiffness: 500 }}
-          className="hidden md:block m-3 no-underline font-zendots text-sm md:text-xl text-[#ffffff] hover:text-solar-lightblue"
-          href="/team"
+          className="hidden md:block m-3"
         >
-          Team
-        </motion.a>
-        <motion.a
+          <Link
+            href="/team"
+            className=" no-underline font-zendots text-sm md:text-xl text-[#ffffff] hover:text-solar-lightblue"
+          >
+            Team
+          </Link>
+        </motion.div>
+        <motion.div
           whileHover={{ scale: 1.2 }}
           transition={{ type: "spring", stiffness: 500 }}
-          className="hidden md:block m-3 no-underline font-zendots text-sm md:text-xl text-[#ffffff] hover:text-solar-lightblue"
-          href="/sponsors"
+          className="hidden md:block m-3"
         >
-          Sponsors
-        </motion.a>
-        <motion.a
-          className="hidden md:block py-2 px-4 rounded-full m-3 no-underline font-zendots text-sm md:text-xl text-solar-gray hover:text-solar-gray bg-solar-gold"
-          href="/adopt"
+          <Link
+            href="/sponsors"
+            className=" no-underline font-zendots text-sm md:text-xl text-[#ffffff] hover:text-solar-lightblue"
+          >
+            Sponsors
+          </Link>
+        </motion.div>
+        <motion.div
+          className="hidden md:block m-3 "
           whileHover={{ scale: 1.2 }}
           transition={{ type: "spring", stiffness: 500 }}
         >
-          Donate
-        </motion.a>
+          <Link
+            href="/adopt"
+            className="py-2 px-4 rounded-full no-underline font-zendots text-sm md:text-xl text-solar-gray hover:text-solar-gray bg-solar-gold"
+          >
+            Donate
+          </Link>
+        </motion.div>
         <motion.div
           onClick={() => {
             setOpen(false);
@@ -75,62 +91,90 @@ const Navigation = () => {
             }}
           />
           <div className="flex flex-col ml-8">
-            <motion.a
+            <motion.div
               whileHover={{ x: 10 }}
               transition={{ type: "spring", stiffness: 500 }}
-              className="m-1 no-underline font-zendots text-2xl text-solar-gray hover:text-solar-blue"
-              href="/about"
+              className="m-1"
             >
-              About Us
-            </motion.a>
-            <motion.a
+              <Link
+                className="no-underline font-zendots text-2xl text-solar-gray hover:text-solar-blue"
+                href="/about"
+              >
+                About Us
+              </Link>
+            </motion.div>
+            <motion.div
               whileHover={{ x: 10 }}
               transition={{ type: "spring", stiffness: 500 }}
-              className="m-1 no-underline font-zendots text-2xl text-solar-gray hover:text-solar-blue"
-              href="/team"
+              className="m-1"
             >
-              Team
-            </motion.a>
-            <motion.a
+              <Link
+                className="m-1 no-underline font-zendots text-2xl text-solar-gray hover:text-solar-blue"
+                href="/team"
+              >
+                Team
+              </Link>
+            </motion.div>
+            <motion.div
               whileHover={{ x: 10 }}
               transition={{ type: "spring", stiffness: 500 }}
-              className="m-1 no-underline font-zendots text-2xl text-solar-gray hover:text-solar-blue"
-              href="/sponsors"
+              className="m-1"
             >
-              Sponsors
-            </motion.a>
-            <motion.a
+              <Link
+                className="no-underline font-zendots text-2xl text-solar-gray hover:text-solar-blue"
+                href="/sponsors"
+              >
+                Sponsors
+              </Link>
+            </motion.div>
+            <motion.div
               whileHover={{ x: 10 }}
               transition={{ type: "spring", stiffness: 500 }}
-              className="m-1 no-underline font-zendots text-2xl text-solar-gray hover:text-solar-blue"
-              href="/recruitment"
+              className="m-1"
             >
-              Recruitment
-            </motion.a>
-            <motion.a
+              <Link
+                className="no-underline font-zendots text-2xl text-solar-gray hover:text-solar-blue"
+                href="/recruitment"
+              >
+                Recruitment
+              </Link>
+            </motion.div>
+            <motion.div
               whileHover={{ x: 10 }}
               transition={{ type: "spring", stiffness: 500 }}
-              className="m-1 no-underline font-zendots text-2xl text-solar-gray hover:text-solar-blue"
-              href="/links"
+              className="m-1"
             >
-              Lead Application
-            </motion.a>
-            <motion.a
+              <Link
+                className="no-underline font-zendots text-2xl text-solar-gray hover:text-solar-blue"
+                href="/links"
+              >
+                Lead Application
+              </Link>
+            </motion.div>
+            <motion.div
               whileHover={{ x: 10 }}
               transition={{ type: "spring", stiffness: 500 }}
-              className="m-1 no-underline font-zendots text-2xl text-solar-gray hover:text-solar-blue"
-              href="/resources"
+              className="m-1"
             >
-              Events
-            </motion.a>
-            <motion.a
+              <Link
+                className="no-underline font-zendots text-2xl text-solar-gray hover:text-solar-blue"
+                href="/resources"
+              >
+                Events
+              </Link>
+            </motion.div>
+            <motion.div
               whileHover={{ scale: 1.2 }}
               transition={{ type: "spring", stiffness: 500 }}
-              className="py-2 px-4 rounded-full m-3 no-underline font-zendots text-xl text-solar-gray hover:text-solar-gray bg-solar-gold"
-              href="/adopt"
+              className="m-3"
             >
-              Donate
-            </motion.a>
+              <Link
+                className="py-2 px-4 rounded-full no-underline font-zendots text-xl text-solar-gray hover:text-solar-gray bg-solar-gold"
+                href="/adopt"
+              >
+                Donate
+              </Link>
+            </motion.div>
           </div>
         </motion.div>
         <motion.div
